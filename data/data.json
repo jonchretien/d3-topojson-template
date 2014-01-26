@@ -1,0 +1,4235 @@
+[
+  {
+    "name": "Alabama",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 5,
+        "doodads": 357,
+        "fizzes": 109,
+        "gizmos": 248,
+        "widgets": 3
+      },
+      "2014-01-02": {
+        "buzzes": 7,
+        "doodads": 179,
+        "fizzes": 82,
+        "gizmos": 89,
+        "widgets": 12
+      },
+      "2014-01-03": {
+        "buzzes": 9,
+        "doodads": 49,
+        "fizzes": 97,
+        "gizmos": 139,
+        "widgets": 22
+      },
+      "2014-01-04": {
+        "buzzes": 1,
+        "doodads": 468,
+        "fizzes": 86,
+        "gizmos": 173,
+        "widgets": 4
+      },
+      "2014-01-05": {
+        "buzzes": 5,
+        "doodads": 273,
+        "fizzes": 30,
+        "gizmos": 38,
+        "widgets": 19
+      },
+      "2014-01-06": {
+        "buzzes": 5,
+        "doodads": 475,
+        "fizzes": 28,
+        "gizmos": 204,
+        "widgets": 6
+      },
+      "2014-01-08": {
+        "buzzes": 4,
+        "doodads": 42,
+        "fizzes": 54,
+        "gizmos": 15,
+        "widgets": 4
+      },
+      "2014-01-09": {
+        "buzzes": 7,
+        "doodads": 352,
+        "fizzes": 47,
+        "gizmos": 61,
+        "widgets": 9
+      },
+      "2014-01-10": {
+        "buzzes": 10,
+        "doodads": 162,
+        "fizzes": 53,
+        "gizmos": 96,
+        "widgets": 15
+      },
+      "2014-01-11": {
+        "buzzes": 8,
+        "doodads": 249,
+        "fizzes": 43,
+        "gizmos": 143,
+        "widgets": 23
+      },
+      "2014-01-07": {
+        "buzzes": 6,
+        "doodads": 383,
+        "fizzes": 107,
+        "gizmos": 106,
+        "widgets": 17
+      }
+    },
+    "id": 0
+  },
+  {
+    "name": "Alaska",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 9,
+        "doodads": 492,
+        "fizzes": 0,
+        "gizmos": 243,
+        "widgets": 5
+      },
+      "2014-01-02": {
+        "buzzes": 6,
+        "doodads": 275,
+        "fizzes": 55,
+        "gizmos": 172,
+        "widgets": 21
+      },
+      "2014-01-03": {
+        "buzzes": 3,
+        "doodads": 37,
+        "fizzes": 53,
+        "gizmos": 244,
+        "widgets": 11
+      },
+      "2014-01-04": {
+        "buzzes": 1,
+        "doodads": 319,
+        "fizzes": 122,
+        "gizmos": 160,
+        "widgets": 21
+      },
+      "2014-01-05": {
+        "buzzes": 10,
+        "doodads": 98,
+        "fizzes": 106,
+        "gizmos": 25,
+        "widgets": 9
+      },
+      "2014-01-06": {
+        "buzzes": 1,
+        "doodads": 140,
+        "fizzes": 145,
+        "gizmos": 220,
+        "widgets": 4
+      },
+      "2014-01-07": {
+        "buzzes": 2,
+        "doodads": 250,
+        "fizzes": 125,
+        "gizmos": 22,
+        "widgets": 3
+      },
+      "2014-01-08": {
+        "buzzes": 0,
+        "doodads": 181,
+        "fizzes": 5,
+        "gizmos": 71,
+        "widgets": 7
+      },
+      "2014-01-09": {
+        "buzzes": 8,
+        "doodads": 255,
+        "fizzes": 60,
+        "gizmos": 139,
+        "widgets": 20
+      },
+      "2014-01-10": {
+        "buzzes": 10,
+        "doodads": 478,
+        "fizzes": 92,
+        "gizmos": 32,
+        "widgets": 11
+      },
+      "2014-01-11": {
+        "buzzes": 0,
+        "doodads": 434,
+        "fizzes": 90,
+        "gizmos": 142,
+        "widgets": 8
+      }
+    },
+    "id": 1
+  },
+  {
+    "name": "Arizona",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 10,
+        "doodads": 372,
+        "fizzes": 81,
+        "gizmos": 175,
+        "widgets": 25
+      },
+      "2014-01-02": {
+        "buzzes": 8,
+        "doodads": 2,
+        "fizzes": 113,
+        "gizmos": 93,
+        "widgets": 23
+      },
+      "2014-01-03": {
+        "buzzes": 8,
+        "doodads": 477,
+        "fizzes": 13,
+        "gizmos": 73,
+        "widgets": 23
+      },
+      "2014-01-04": {
+        "buzzes": 4,
+        "doodads": 456,
+        "fizzes": 115,
+        "gizmos": 137,
+        "widgets": 9
+      },
+      "2014-01-05": {
+        "buzzes": 2,
+        "doodads": 313,
+        "fizzes": 49,
+        "gizmos": 109,
+        "widgets": 3
+      },
+      "2014-01-06": {
+        "buzzes": 4,
+        "doodads": 82,
+        "fizzes": 117,
+        "gizmos": 118,
+        "widgets": 16
+      },
+      "2014-01-07": {
+        "buzzes": 9,
+        "doodads": 155,
+        "fizzes": 51,
+        "gizmos": 143,
+        "widgets": 11
+      },
+      "2014-01-08": {
+        "buzzes": 5,
+        "doodads": 4,
+        "fizzes": 135,
+        "gizmos": 212,
+        "widgets": 23
+      },
+      "2014-01-10": {
+        "buzzes": 1,
+        "doodads": 378,
+        "fizzes": 102,
+        "gizmos": 19,
+        "widgets": 0
+      },
+      "2014-01-11": {
+        "buzzes": 5,
+        "doodads": 89,
+        "fizzes": 109,
+        "gizmos": 144,
+        "widgets": 6
+      },
+      "2014-01-09": {
+        "buzzes": 7,
+        "doodads": 472,
+        "fizzes": 71,
+        "gizmos": 139,
+        "widgets": 22
+      }
+    },
+    "id": 2
+  },
+  {
+    "name": "Arkansas",
+    "dates": {
+      "2014-01-04": {
+        "buzzes": 9,
+        "doodads": 303,
+        "fizzes": 101,
+        "gizmos": 156,
+        "widgets": 19
+      },
+      "2014-01-05": {
+        "buzzes": 10,
+        "doodads": 55,
+        "fizzes": 142,
+        "gizmos": 232,
+        "widgets": 17
+      },
+      "2014-01-07": {
+        "buzzes": 0,
+        "doodads": 180,
+        "fizzes": 69,
+        "gizmos": 146,
+        "widgets": 18
+      },
+      "2014-01-08": {
+        "buzzes": 5,
+        "doodads": 94,
+        "fizzes": 135,
+        "gizmos": 199,
+        "widgets": 9
+      },
+      "2014-01-10": {
+        "buzzes": 9,
+        "doodads": 413,
+        "fizzes": 94,
+        "gizmos": 241,
+        "widgets": 7
+      },
+      "2014-01-11": {
+        "buzzes": 8,
+        "doodads": 421,
+        "fizzes": 50,
+        "gizmos": 28,
+        "widgets": 19
+      },
+      "2014-01-01": {
+        "buzzes": 3,
+        "doodads": 449,
+        "fizzes": 58,
+        "gizmos": 38,
+        "widgets": 19
+      },
+      "2014-01-02": {
+        "buzzes": 2,
+        "doodads": 278,
+        "fizzes": 119,
+        "gizmos": 211,
+        "widgets": 13
+      },
+      "2014-01-03": {
+        "buzzes": 9,
+        "doodads": 242,
+        "fizzes": 82,
+        "gizmos": 22,
+        "widgets": 7
+      },
+      "2014-01-06": {
+        "buzzes": 10,
+        "doodads": 132,
+        "fizzes": 3,
+        "gizmos": 113,
+        "widgets": 15
+      },
+      "2014-01-09": {
+        "buzzes": 2,
+        "doodads": 318,
+        "fizzes": 76,
+        "gizmos": 64,
+        "widgets": 13
+      }
+    },
+    "id": 3
+  },
+  {
+    "name": "California",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 6,
+        "doodads": 230,
+        "fizzes": 102,
+        "gizmos": 37,
+        "widgets": 23
+      },
+      "2014-01-02": {
+        "buzzes": 2,
+        "doodads": 30,
+        "fizzes": 105,
+        "gizmos": 208,
+        "widgets": 4
+      },
+      "2014-01-03": {
+        "buzzes": 7,
+        "doodads": 362,
+        "fizzes": 47,
+        "gizmos": 3,
+        "widgets": 12
+      },
+      "2014-01-04": {
+        "buzzes": 10,
+        "doodads": 379,
+        "fizzes": 81,
+        "gizmos": 187,
+        "widgets": 24
+      },
+      "2014-01-05": {
+        "buzzes": 0,
+        "doodads": 375,
+        "fizzes": 107,
+        "gizmos": 165,
+        "widgets": 12
+      },
+      "2014-01-06": {
+        "buzzes": 1,
+        "doodads": 171,
+        "fizzes": 1,
+        "gizmos": 18,
+        "widgets": 24
+      },
+      "2014-01-07": {
+        "buzzes": 6,
+        "doodads": 267,
+        "fizzes": 67,
+        "gizmos": 62,
+        "widgets": 3
+      },
+      "2014-01-08": {
+        "buzzes": 1,
+        "doodads": 218,
+        "fizzes": 123,
+        "gizmos": 4,
+        "widgets": 16
+      },
+      "2014-01-09": {
+        "buzzes": 1,
+        "doodads": 46,
+        "fizzes": 62,
+        "gizmos": 90,
+        "widgets": 8
+      },
+      "2014-01-10": {
+        "buzzes": 6,
+        "doodads": 160,
+        "fizzes": 54,
+        "gizmos": 34,
+        "widgets": 13
+      },
+      "2014-01-11": {
+        "buzzes": 1,
+        "doodads": 18,
+        "fizzes": 93,
+        "gizmos": 98,
+        "widgets": 13
+      }
+    },
+    "id": 4
+  },
+  {
+    "name": "Colorado",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 3,
+        "doodads": 243,
+        "fizzes": 72,
+        "gizmos": 202,
+        "widgets": 0
+      },
+      "2014-01-02": {
+        "buzzes": 5,
+        "doodads": 186,
+        "fizzes": 136,
+        "gizmos": 86,
+        "widgets": 17
+      },
+      "2014-01-03": {
+        "buzzes": 10,
+        "doodads": 134,
+        "fizzes": 79,
+        "gizmos": 186,
+        "widgets": 24
+      },
+      "2014-01-05": {
+        "buzzes": 2,
+        "doodads": 451,
+        "fizzes": 1,
+        "gizmos": 99,
+        "widgets": 6
+      },
+      "2014-01-07": {
+        "buzzes": 7,
+        "doodads": 277,
+        "fizzes": 123,
+        "gizmos": 157,
+        "widgets": 20
+      },
+      "2014-01-08": {
+        "buzzes": 8,
+        "doodads": 149,
+        "fizzes": 61,
+        "gizmos": 2,
+        "widgets": 19
+      },
+      "2014-01-09": {
+        "buzzes": 8,
+        "doodads": 50,
+        "fizzes": 67,
+        "gizmos": 194,
+        "widgets": 5
+      },
+      "2014-01-10": {
+        "buzzes": 6,
+        "doodads": 190,
+        "fizzes": 17,
+        "gizmos": 78,
+        "widgets": 21
+      },
+      "2014-01-11": {
+        "buzzes": 5,
+        "doodads": 89,
+        "fizzes": 136,
+        "gizmos": 86,
+        "widgets": 4
+      },
+      "2014-01-04": {
+        "buzzes": 6,
+        "doodads": 329,
+        "fizzes": 16,
+        "gizmos": 124,
+        "widgets": 20
+      },
+      "2014-01-06": {
+        "buzzes": 9,
+        "doodads": 21,
+        "fizzes": 127,
+        "gizmos": 169,
+        "widgets": 17
+      }
+    },
+    "id": 5
+  },
+  {
+    "name": "Connecticut",
+    "dates": {
+      "2014-01-02": {
+        "buzzes": 4,
+        "doodads": 250,
+        "fizzes": 44,
+        "gizmos": 64,
+        "widgets": 24
+      },
+      "2014-01-03": {
+        "buzzes": 0,
+        "doodads": 484,
+        "fizzes": 130,
+        "gizmos": 244,
+        "widgets": 2
+      },
+      "2014-01-04": {
+        "buzzes": 5,
+        "doodads": 348,
+        "fizzes": 58,
+        "gizmos": 170,
+        "widgets": 3
+      },
+      "2014-01-05": {
+        "buzzes": 6,
+        "doodads": 99,
+        "fizzes": 95,
+        "gizmos": 231,
+        "widgets": 3
+      },
+      "2014-01-07": {
+        "buzzes": 7,
+        "doodads": 54,
+        "fizzes": 14,
+        "gizmos": 85,
+        "widgets": 7
+      },
+      "2014-01-09": {
+        "buzzes": 7,
+        "doodads": 388,
+        "fizzes": 111,
+        "gizmos": 221,
+        "widgets": 10
+      },
+      "2014-01-10": {
+        "buzzes": 3,
+        "doodads": 356,
+        "fizzes": 130,
+        "gizmos": 197,
+        "widgets": 18
+      },
+      "2014-01-11": {
+        "buzzes": 0,
+        "doodads": 213,
+        "fizzes": 38,
+        "gizmos": 74,
+        "widgets": 20
+      },
+      "2014-01-01": {
+        "buzzes": 5,
+        "doodads": 322,
+        "fizzes": 106,
+        "gizmos": 47,
+        "widgets": 15
+      },
+      "2014-01-06": {
+        "buzzes": 4,
+        "doodads": 492,
+        "fizzes": 82,
+        "gizmos": 20,
+        "widgets": 12
+      },
+      "2014-01-08": {
+        "buzzes": 9,
+        "doodads": 120,
+        "fizzes": 35,
+        "gizmos": 88,
+        "widgets": 23
+      }
+    },
+    "id": 6
+  },
+  {
+    "name": "Delaware",
+    "dates": {
+      "2014-01-03": {
+        "buzzes": 5,
+        "doodads": 150,
+        "fizzes": 139,
+        "gizmos": 122,
+        "widgets": 14
+      },
+      "2014-01-01": {
+        "buzzes": 6,
+        "doodads": 390,
+        "fizzes": 49,
+        "gizmos": 6,
+        "widgets": 22
+      },
+      "2014-01-02": {
+        "buzzes": 8,
+        "doodads": 266,
+        "fizzes": 49,
+        "gizmos": 131,
+        "widgets": 1
+      },
+      "2014-01-04": {
+        "buzzes": 8,
+        "doodads": 429,
+        "fizzes": 62,
+        "gizmos": 107,
+        "widgets": 20
+      },
+      "2014-01-05": {
+        "buzzes": 3,
+        "doodads": 18,
+        "fizzes": 96,
+        "gizmos": 139,
+        "widgets": 20
+      },
+      "2014-01-06": {
+        "buzzes": 4,
+        "doodads": 159,
+        "fizzes": 60,
+        "gizmos": 223,
+        "widgets": 14
+      },
+      "2014-01-07": {
+        "buzzes": 4,
+        "doodads": 247,
+        "fizzes": 23,
+        "gizmos": 55,
+        "widgets": 19
+      },
+      "2014-01-08": {
+        "buzzes": 7,
+        "doodads": 96,
+        "fizzes": 146,
+        "gizmos": 18,
+        "widgets": 9
+      },
+      "2014-01-09": {
+        "buzzes": 6,
+        "doodads": 306,
+        "fizzes": 0,
+        "gizmos": 180,
+        "widgets": 11
+      },
+      "2014-01-10": {
+        "buzzes": 4,
+        "doodads": 476,
+        "fizzes": 9,
+        "gizmos": 5,
+        "widgets": 4
+      },
+      "2014-01-11": {
+        "buzzes": 7,
+        "doodads": 127,
+        "fizzes": 4,
+        "gizmos": 170,
+        "widgets": 17
+      }
+    },
+    "id": 7
+  },
+  {
+    "name": "District of Columbia",
+    "dates": {
+      "2014-01-02": {
+        "buzzes": 7,
+        "doodads": 92,
+        "fizzes": 102,
+        "gizmos": 222,
+        "widgets": 10
+      },
+      "2014-01-10": {
+        "buzzes": 10,
+        "doodads": 57,
+        "fizzes": 53,
+        "gizmos": 40,
+        "widgets": 14
+      },
+      "2014-01-01": {
+        "buzzes": 6,
+        "doodads": 230,
+        "fizzes": 34,
+        "gizmos": 80,
+        "widgets": 12
+      },
+      "2014-01-03": {
+        "buzzes": 8,
+        "doodads": 297,
+        "fizzes": 112,
+        "gizmos": 160,
+        "widgets": 23
+      },
+      "2014-01-04": {
+        "buzzes": 5,
+        "doodads": 79,
+        "fizzes": 46,
+        "gizmos": 60,
+        "widgets": 10
+      },
+      "2014-01-05": {
+        "buzzes": 8,
+        "doodads": 182,
+        "fizzes": 96,
+        "gizmos": 16,
+        "widgets": 22
+      },
+      "2014-01-06": {
+        "buzzes": 1,
+        "doodads": 415,
+        "fizzes": 129,
+        "gizmos": 55,
+        "widgets": 21
+      },
+      "2014-01-07": {
+        "buzzes": 2,
+        "doodads": 244,
+        "fizzes": 7,
+        "gizmos": 236,
+        "widgets": 20
+      },
+      "2014-01-08": {
+        "buzzes": 2,
+        "doodads": 73,
+        "fizzes": 51,
+        "gizmos": 22,
+        "widgets": 10
+      },
+      "2014-01-09": {
+        "buzzes": 7,
+        "doodads": 50,
+        "fizzes": 130,
+        "gizmos": 120,
+        "widgets": 21
+      },
+      "2014-01-11": {
+        "buzzes": 0,
+        "doodads": 346,
+        "fizzes": 46,
+        "gizmos": 101,
+        "widgets": 4
+      }
+    },
+    "id": 8
+  },
+  {
+    "name": "Florida",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 6,
+        "doodads": 500,
+        "fizzes": 101,
+        "gizmos": 191,
+        "widgets": 4
+      },
+      "2014-01-02": {
+        "buzzes": 4,
+        "doodads": 69,
+        "fizzes": 71,
+        "gizmos": 8,
+        "widgets": 1
+      },
+      "2014-01-03": {
+        "buzzes": 3,
+        "doodads": 443,
+        "fizzes": 34,
+        "gizmos": 152,
+        "widgets": 9
+      },
+      "2014-01-04": {
+        "buzzes": 6,
+        "doodads": 70,
+        "fizzes": 73,
+        "gizmos": 136,
+        "widgets": 21
+      },
+      "2014-01-05": {
+        "buzzes": 1,
+        "doodads": 333,
+        "fizzes": 106,
+        "gizmos": 143,
+        "widgets": 15
+      },
+      "2014-01-06": {
+        "buzzes": 5,
+        "doodads": 387,
+        "fizzes": 88,
+        "gizmos": 123,
+        "widgets": 24
+      },
+      "2014-01-07": {
+        "buzzes": 0,
+        "doodads": 66,
+        "fizzes": 34,
+        "gizmos": 235,
+        "widgets": 6
+      },
+      "2014-01-08": {
+        "buzzes": 3,
+        "doodads": 105,
+        "fizzes": 31,
+        "gizmos": 110,
+        "widgets": 2
+      },
+      "2014-01-09": {
+        "buzzes": 1,
+        "doodads": 278,
+        "fizzes": 35,
+        "gizmos": 161,
+        "widgets": 4
+      },
+      "2014-01-10": {
+        "buzzes": 6,
+        "doodads": 298,
+        "fizzes": 6,
+        "gizmos": 101,
+        "widgets": 17
+      },
+      "2014-01-11": {
+        "buzzes": 5,
+        "doodads": 317,
+        "fizzes": 127,
+        "gizmos": 106,
+        "widgets": 7
+      }
+    },
+    "id": 9
+  },
+  {
+    "name": "Georgia",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 6,
+        "doodads": 368,
+        "fizzes": 49,
+        "gizmos": 210,
+        "widgets": 18
+      },
+      "2014-01-02": {
+        "buzzes": 1,
+        "doodads": 83,
+        "fizzes": 86,
+        "gizmos": 237,
+        "widgets": 12
+      },
+      "2014-01-03": {
+        "buzzes": 1,
+        "doodads": 193,
+        "fizzes": 92,
+        "gizmos": 204,
+        "widgets": 9
+      },
+      "2014-01-04": {
+        "buzzes": 9,
+        "doodads": 367,
+        "fizzes": 62,
+        "gizmos": 218,
+        "widgets": 3
+      },
+      "2014-01-05": {
+        "buzzes": 10,
+        "doodads": 252,
+        "fizzes": 1,
+        "gizmos": 132,
+        "widgets": 9
+      },
+      "2014-01-06": {
+        "buzzes": 4,
+        "doodads": 261,
+        "fizzes": 85,
+        "gizmos": 53,
+        "widgets": 4
+      },
+      "2014-01-07": {
+        "buzzes": 5,
+        "doodads": 444,
+        "fizzes": 50,
+        "gizmos": 55,
+        "widgets": 4
+      },
+      "2014-01-08": {
+        "buzzes": 7,
+        "doodads": 314,
+        "fizzes": 68,
+        "gizmos": 73,
+        "widgets": 24
+      },
+      "2014-01-09": {
+        "buzzes": 6,
+        "doodads": 20,
+        "fizzes": 102,
+        "gizmos": 208,
+        "widgets": 5
+      },
+      "2014-01-10": {
+        "buzzes": 9,
+        "doodads": 344,
+        "fizzes": 62,
+        "gizmos": 151,
+        "widgets": 19
+      },
+      "2014-01-11": {
+        "buzzes": 5,
+        "doodads": 174,
+        "fizzes": 27,
+        "gizmos": 30,
+        "widgets": 6
+      }
+    },
+    "id": 10
+  },
+  {
+    "name": "Hawaii",
+    "dates": {
+      "2014-01-04": {
+        "buzzes": 5,
+        "doodads": 282,
+        "fizzes": 92,
+        "gizmos": 20,
+        "widgets": 14
+      },
+      "2014-01-05": {
+        "buzzes": 2,
+        "doodads": 122,
+        "fizzes": 85,
+        "gizmos": 174,
+        "widgets": 4
+      },
+      "2014-01-07": {
+        "buzzes": 1,
+        "doodads": 429,
+        "fizzes": 59,
+        "gizmos": 76,
+        "widgets": 16
+      },
+      "2014-01-09": {
+        "buzzes": 10,
+        "doodads": 27,
+        "fizzes": 43,
+        "gizmos": 200,
+        "widgets": 16
+      },
+      "2014-01-11": {
+        "buzzes": 8,
+        "doodads": 183,
+        "fizzes": 24,
+        "gizmos": 88,
+        "widgets": 11
+      },
+      "2014-01-01": {
+        "buzzes": 0,
+        "doodads": 90,
+        "fizzes": 66,
+        "gizmos": 66,
+        "widgets": 25
+      },
+      "2014-01-02": {
+        "buzzes": 2,
+        "doodads": 306,
+        "fizzes": 30,
+        "gizmos": 248,
+        "widgets": 24
+      },
+      "2014-01-03": {
+        "buzzes": 0,
+        "doodads": 458,
+        "fizzes": 108,
+        "gizmos": 74,
+        "widgets": 19
+      },
+      "2014-01-06": {
+        "buzzes": 1,
+        "doodads": 56,
+        "fizzes": 0,
+        "gizmos": 42,
+        "widgets": 18
+      },
+      "2014-01-08": {
+        "buzzes": 2,
+        "doodads": 437,
+        "fizzes": 21,
+        "gizmos": 167,
+        "widgets": 10
+      },
+      "2014-01-10": {
+        "buzzes": 0,
+        "doodads": 413,
+        "fizzes": 80,
+        "gizmos": 48,
+        "widgets": 21
+      }
+    },
+    "id": 11
+  },
+  {
+    "name": "Idaho",
+    "dates": {
+      "2014-01-02": {
+        "buzzes": 0,
+        "doodads": 135,
+        "fizzes": 52,
+        "gizmos": 150,
+        "widgets": 7
+      },
+      "2014-01-05": {
+        "buzzes": 2,
+        "doodads": 232,
+        "fizzes": 149,
+        "gizmos": 159,
+        "widgets": 5
+      },
+      "2014-01-06": {
+        "buzzes": 0,
+        "doodads": 25,
+        "fizzes": 69,
+        "gizmos": 151,
+        "widgets": 8
+      },
+      "2014-01-09": {
+        "buzzes": 9,
+        "doodads": 273,
+        "fizzes": 133,
+        "gizmos": 250,
+        "widgets": 25
+      },
+      "2014-01-01": {
+        "buzzes": 9,
+        "doodads": 212,
+        "fizzes": 29,
+        "gizmos": 195,
+        "widgets": 18
+      },
+      "2014-01-03": {
+        "buzzes": 10,
+        "doodads": 428,
+        "fizzes": 2,
+        "gizmos": 204,
+        "widgets": 14
+      },
+      "2014-01-04": {
+        "buzzes": 3,
+        "doodads": 133,
+        "fizzes": 146,
+        "gizmos": 52,
+        "widgets": 4
+      },
+      "2014-01-07": {
+        "buzzes": 2,
+        "doodads": 260,
+        "fizzes": 65,
+        "gizmos": 155,
+        "widgets": 13
+      },
+      "2014-01-08": {
+        "buzzes": 1,
+        "doodads": 80,
+        "fizzes": 62,
+        "gizmos": 39,
+        "widgets": 9
+      },
+      "2014-01-10": {
+        "buzzes": 7,
+        "doodads": 73,
+        "fizzes": 99,
+        "gizmos": 32,
+        "widgets": 24
+      },
+      "2014-01-11": {
+        "buzzes": 10,
+        "doodads": 253,
+        "fizzes": 13,
+        "gizmos": 7,
+        "widgets": 4
+      }
+    },
+    "id": 12
+  },
+  {
+    "name": "Illinois",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 8,
+        "doodads": 335,
+        "fizzes": 88,
+        "gizmos": 132,
+        "widgets": 23
+      },
+      "2014-01-02": {
+        "buzzes": 8,
+        "doodads": 108,
+        "fizzes": 82,
+        "gizmos": 1,
+        "widgets": 1
+      },
+      "2014-01-03": {
+        "buzzes": 8,
+        "doodads": 462,
+        "fizzes": 120,
+        "gizmos": 67,
+        "widgets": 19
+      },
+      "2014-01-05": {
+        "buzzes": 4,
+        "doodads": 9,
+        "fizzes": 85,
+        "gizmos": 147,
+        "widgets": 7
+      },
+      "2014-01-06": {
+        "buzzes": 10,
+        "doodads": 459,
+        "fizzes": 53,
+        "gizmos": 210,
+        "widgets": 3
+      },
+      "2014-01-07": {
+        "buzzes": 10,
+        "doodads": 78,
+        "fizzes": 78,
+        "gizmos": 117,
+        "widgets": 9
+      },
+      "2014-01-08": {
+        "buzzes": 2,
+        "doodads": 451,
+        "fizzes": 106,
+        "gizmos": 35,
+        "widgets": 20
+      },
+      "2014-01-09": {
+        "buzzes": 9,
+        "doodads": 34,
+        "fizzes": 78,
+        "gizmos": 10,
+        "widgets": 8
+      },
+      "2014-01-10": {
+        "buzzes": 0,
+        "doodads": 347,
+        "fizzes": 19,
+        "gizmos": 162,
+        "widgets": 16
+      },
+      "2014-01-11": {
+        "buzzes": 4,
+        "doodads": 175,
+        "fizzes": 51,
+        "gizmos": 203,
+        "widgets": 23
+      },
+      "2014-01-04": {
+        "buzzes": 2,
+        "doodads": 57,
+        "fizzes": 100,
+        "gizmos": 168,
+        "widgets": 20
+      }
+    },
+    "id": 13
+  },
+  {
+    "name": "Indiana",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 4,
+        "doodads": 467,
+        "fizzes": 33,
+        "gizmos": 34,
+        "widgets": 15
+      },
+      "2014-01-02": {
+        "buzzes": 0,
+        "doodads": 252,
+        "fizzes": 60,
+        "gizmos": 132,
+        "widgets": 5
+      },
+      "2014-01-03": {
+        "buzzes": 10,
+        "doodads": 19,
+        "fizzes": 11,
+        "gizmos": 130,
+        "widgets": 16
+      },
+      "2014-01-04": {
+        "buzzes": 0,
+        "doodads": 304,
+        "fizzes": 6,
+        "gizmos": 18,
+        "widgets": 8
+      },
+      "2014-01-05": {
+        "buzzes": 1,
+        "doodads": 0,
+        "fizzes": 80,
+        "gizmos": 160,
+        "widgets": 17
+      },
+      "2014-01-06": {
+        "buzzes": 6,
+        "doodads": 78,
+        "fizzes": 75,
+        "gizmos": 157,
+        "widgets": 16
+      },
+      "2014-01-07": {
+        "buzzes": 2,
+        "doodads": 132,
+        "fizzes": 9,
+        "gizmos": 224,
+        "widgets": 20
+      },
+      "2014-01-08": {
+        "buzzes": 9,
+        "doodads": 484,
+        "fizzes": 149,
+        "gizmos": 73,
+        "widgets": 20
+      },
+      "2014-01-09": {
+        "buzzes": 6,
+        "doodads": 325,
+        "fizzes": 80,
+        "gizmos": 29,
+        "widgets": 14
+      },
+      "2014-01-10": {
+        "buzzes": 7,
+        "doodads": 239,
+        "fizzes": 49,
+        "gizmos": 122,
+        "widgets": 11
+      },
+      "2014-01-11": {
+        "buzzes": 2,
+        "doodads": 172,
+        "fizzes": 99,
+        "gizmos": 229,
+        "widgets": 17
+      }
+    },
+    "id": 14
+  },
+  {
+    "name": "Iowa",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 9,
+        "doodads": 249,
+        "fizzes": 71,
+        "gizmos": 126,
+        "widgets": 18
+      },
+      "2014-01-02": {
+        "buzzes": 8,
+        "doodads": 61,
+        "fizzes": 147,
+        "gizmos": 165,
+        "widgets": 5
+      },
+      "2014-01-04": {
+        "buzzes": 9,
+        "doodads": 53,
+        "fizzes": 31,
+        "gizmos": 140,
+        "widgets": 7
+      },
+      "2014-01-05": {
+        "buzzes": 10,
+        "doodads": 229,
+        "fizzes": 95,
+        "gizmos": 247,
+        "widgets": 11
+      },
+      "2014-01-06": {
+        "buzzes": 0,
+        "doodads": 110,
+        "fizzes": 127,
+        "gizmos": 193,
+        "widgets": 12
+      },
+      "2014-01-07": {
+        "buzzes": 8,
+        "doodads": 169,
+        "fizzes": 93,
+        "gizmos": 157,
+        "widgets": 19
+      },
+      "2014-01-08": {
+        "buzzes": 8,
+        "doodads": 392,
+        "fizzes": 142,
+        "gizmos": 184,
+        "widgets": 12
+      },
+      "2014-01-09": {
+        "buzzes": 1,
+        "doodads": 465,
+        "fizzes": 64,
+        "gizmos": 6,
+        "widgets": 1
+      },
+      "2014-01-10": {
+        "buzzes": 2,
+        "doodads": 256,
+        "fizzes": 46,
+        "gizmos": 42,
+        "widgets": 25
+      },
+      "2014-01-03": {
+        "buzzes": 10,
+        "doodads": 240,
+        "fizzes": 89,
+        "gizmos": 217,
+        "widgets": 18
+      },
+      "2014-01-11": {
+        "buzzes": 3,
+        "doodads": 383,
+        "fizzes": 35,
+        "gizmos": 42,
+        "widgets": 0
+      }
+    },
+    "id": 15
+  },
+  {
+    "name": "Kansas",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 5,
+        "doodads": 344,
+        "fizzes": 58,
+        "gizmos": 95,
+        "widgets": 16
+      },
+      "2014-01-02": {
+        "buzzes": 10,
+        "doodads": 179,
+        "fizzes": 150,
+        "gizmos": 175,
+        "widgets": 16
+      },
+      "2014-01-03": {
+        "buzzes": 10,
+        "doodads": 473,
+        "fizzes": 112,
+        "gizmos": 212,
+        "widgets": 11
+      },
+      "2014-01-04": {
+        "buzzes": 3,
+        "doodads": 474,
+        "fizzes": 73,
+        "gizmos": 46,
+        "widgets": 1
+      },
+      "2014-01-05": {
+        "buzzes": 7,
+        "doodads": 134,
+        "fizzes": 84,
+        "gizmos": 155,
+        "widgets": 4
+      },
+      "2014-01-06": {
+        "buzzes": 10,
+        "doodads": 128,
+        "fizzes": 76,
+        "gizmos": 15,
+        "widgets": 7
+      },
+      "2014-01-07": {
+        "buzzes": 7,
+        "doodads": 162,
+        "fizzes": 14,
+        "gizmos": 47,
+        "widgets": 7
+      },
+      "2014-01-09": {
+        "buzzes": 3,
+        "doodads": 214,
+        "fizzes": 122,
+        "gizmos": 118,
+        "widgets": 0
+      },
+      "2014-01-11": {
+        "buzzes": 3,
+        "doodads": 83,
+        "fizzes": 105,
+        "gizmos": 101,
+        "widgets": 3
+      },
+      "2014-01-08": {
+        "buzzes": 8,
+        "doodads": 11,
+        "fizzes": 19,
+        "gizmos": 174,
+        "widgets": 25
+      },
+      "2014-01-10": {
+        "buzzes": 4,
+        "doodads": 117,
+        "fizzes": 23,
+        "gizmos": 3,
+        "widgets": 7
+      }
+    },
+    "id": 16
+  },
+  {
+    "name": "Kentucky",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 7,
+        "doodads": 85,
+        "fizzes": 50,
+        "gizmos": 85,
+        "widgets": 8
+      },
+      "2014-01-02": {
+        "buzzes": 9,
+        "doodads": 277,
+        "fizzes": 136,
+        "gizmos": 85,
+        "widgets": 22
+      },
+      "2014-01-03": {
+        "buzzes": 3,
+        "doodads": 416,
+        "fizzes": 144,
+        "gizmos": 135,
+        "widgets": 5
+      },
+      "2014-01-04": {
+        "buzzes": 7,
+        "doodads": 165,
+        "fizzes": 138,
+        "gizmos": 98,
+        "widgets": 11
+      },
+      "2014-01-05": {
+        "buzzes": 8,
+        "doodads": 319,
+        "fizzes": 18,
+        "gizmos": 4,
+        "widgets": 14
+      },
+      "2014-01-06": {
+        "buzzes": 7,
+        "doodads": 262,
+        "fizzes": 50,
+        "gizmos": 30,
+        "widgets": 11
+      },
+      "2014-01-07": {
+        "buzzes": 3,
+        "doodads": 107,
+        "fizzes": 64,
+        "gizmos": 106,
+        "widgets": 16
+      },
+      "2014-01-08": {
+        "buzzes": 7,
+        "doodads": 55,
+        "fizzes": 26,
+        "gizmos": 130,
+        "widgets": 10
+      },
+      "2014-01-09": {
+        "buzzes": 10,
+        "doodads": 260,
+        "fizzes": 43,
+        "gizmos": 126,
+        "widgets": 14
+      },
+      "2014-01-10": {
+        "buzzes": 3,
+        "doodads": 291,
+        "fizzes": 84,
+        "gizmos": 15,
+        "widgets": 24
+      },
+      "2014-01-11": {
+        "buzzes": 0,
+        "doodads": 101,
+        "fizzes": 37,
+        "gizmos": 37,
+        "widgets": 0
+      }
+    },
+    "id": 17
+  },
+  {
+    "name": "Louisiana",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 7,
+        "doodads": 52,
+        "fizzes": 42,
+        "gizmos": 24,
+        "widgets": 11
+      },
+      "2014-01-03": {
+        "buzzes": 0,
+        "doodads": 231,
+        "fizzes": 78,
+        "gizmos": 18,
+        "widgets": 14
+      },
+      "2014-01-04": {
+        "buzzes": 0,
+        "doodads": 130,
+        "fizzes": 140,
+        "gizmos": 27,
+        "widgets": 6
+      },
+      "2014-01-05": {
+        "buzzes": 9,
+        "doodads": 348,
+        "fizzes": 73,
+        "gizmos": 95,
+        "widgets": 17
+      },
+      "2014-01-06": {
+        "buzzes": 6,
+        "doodads": 269,
+        "fizzes": 86,
+        "gizmos": 161,
+        "widgets": 25
+      },
+      "2014-01-07": {
+        "buzzes": 2,
+        "doodads": 147,
+        "fizzes": 51,
+        "gizmos": 176,
+        "widgets": 18
+      },
+      "2014-01-08": {
+        "buzzes": 4,
+        "doodads": 19,
+        "fizzes": 123,
+        "gizmos": 97,
+        "widgets": 25
+      },
+      "2014-01-09": {
+        "buzzes": 9,
+        "doodads": 346,
+        "fizzes": 5,
+        "gizmos": 205,
+        "widgets": 18
+      },
+      "2014-01-10": {
+        "buzzes": 6,
+        "doodads": 140,
+        "fizzes": 146,
+        "gizmos": 225,
+        "widgets": 8
+      },
+      "2014-01-11": {
+        "buzzes": 9,
+        "doodads": 402,
+        "fizzes": 66,
+        "gizmos": 26,
+        "widgets": 23
+      },
+      "2014-01-02": {
+        "buzzes": 10,
+        "doodads": 428,
+        "fizzes": 138,
+        "gizmos": 9,
+        "widgets": 5
+      }
+    },
+    "id": 18
+  },
+  {
+    "name": "Maine",
+    "dates": {
+      "2014-01-02": {
+        "buzzes": 1,
+        "doodads": 193,
+        "fizzes": 113,
+        "gizmos": 240,
+        "widgets": 12
+      },
+      "2014-01-03": {
+        "buzzes": 6,
+        "doodads": 462,
+        "fizzes": 120,
+        "gizmos": 25,
+        "widgets": 18
+      },
+      "2014-01-04": {
+        "buzzes": 3,
+        "doodads": 235,
+        "fizzes": 55,
+        "gizmos": 137,
+        "widgets": 11
+      },
+      "2014-01-05": {
+        "buzzes": 1,
+        "doodads": 373,
+        "fizzes": 128,
+        "gizmos": 212,
+        "widgets": 25
+      },
+      "2014-01-06": {
+        "buzzes": 2,
+        "doodads": 490,
+        "fizzes": 110,
+        "gizmos": 29,
+        "widgets": 6
+      },
+      "2014-01-07": {
+        "buzzes": 3,
+        "doodads": 492,
+        "fizzes": 93,
+        "gizmos": 194,
+        "widgets": 0
+      },
+      "2014-01-09": {
+        "buzzes": 1,
+        "doodads": 415,
+        "fizzes": 42,
+        "gizmos": 154,
+        "widgets": 4
+      },
+      "2014-01-10": {
+        "buzzes": 10,
+        "doodads": 43,
+        "fizzes": 25,
+        "gizmos": 220,
+        "widgets": 9
+      },
+      "2014-01-11": {
+        "buzzes": 10,
+        "doodads": 7,
+        "fizzes": 28,
+        "gizmos": 171,
+        "widgets": 10
+      },
+      "2014-01-01": {
+        "buzzes": 8,
+        "doodads": 354,
+        "fizzes": 38,
+        "gizmos": 9,
+        "widgets": 4
+      },
+      "2014-01-08": {
+        "buzzes": 4,
+        "doodads": 9,
+        "fizzes": 35,
+        "gizmos": 83,
+        "widgets": 12
+      }
+    },
+    "id": 19
+  },
+  {
+    "name": "Maryland",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 4,
+        "doodads": 222,
+        "fizzes": 80,
+        "gizmos": 216,
+        "widgets": 8
+      },
+      "2014-01-02": {
+        "buzzes": 9,
+        "doodads": 93,
+        "fizzes": 142,
+        "gizmos": 231,
+        "widgets": 12
+      },
+      "2014-01-03": {
+        "buzzes": 10,
+        "doodads": 109,
+        "fizzes": 141,
+        "gizmos": 97,
+        "widgets": 23
+      },
+      "2014-01-04": {
+        "buzzes": 8,
+        "doodads": 342,
+        "fizzes": 122,
+        "gizmos": 33,
+        "widgets": 7
+      },
+      "2014-01-08": {
+        "buzzes": 2,
+        "doodads": 23,
+        "fizzes": 144,
+        "gizmos": 169,
+        "widgets": 17
+      },
+      "2014-01-09": {
+        "buzzes": 2,
+        "doodads": 382,
+        "fizzes": 102,
+        "gizmos": 90,
+        "widgets": 19
+      },
+      "2014-01-10": {
+        "buzzes": 4,
+        "doodads": 347,
+        "fizzes": 30,
+        "gizmos": 82,
+        "widgets": 10
+      },
+      "2014-01-11": {
+        "buzzes": 9,
+        "doodads": 94,
+        "fizzes": 34,
+        "gizmos": 94,
+        "widgets": 19
+      },
+      "2014-01-05": {
+        "buzzes": 1,
+        "doodads": 428,
+        "fizzes": 80,
+        "gizmos": 47,
+        "widgets": 25
+      },
+      "2014-01-06": {
+        "buzzes": 6,
+        "doodads": 121,
+        "fizzes": 143,
+        "gizmos": 120,
+        "widgets": 17
+      },
+      "2014-01-07": {
+        "buzzes": 2,
+        "doodads": 438,
+        "fizzes": 146,
+        "gizmos": 6,
+        "widgets": 7
+      }
+    },
+    "id": 20
+  },
+  {
+    "name": "Massachusetts",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 0,
+        "doodads": 423,
+        "fizzes": 27,
+        "gizmos": 233,
+        "widgets": 19
+      },
+      "2014-01-02": {
+        "buzzes": 4,
+        "doodads": 475,
+        "fizzes": 135,
+        "gizmos": 216,
+        "widgets": 22
+      },
+      "2014-01-04": {
+        "buzzes": 7,
+        "doodads": 147,
+        "fizzes": 120,
+        "gizmos": 31,
+        "widgets": 6
+      },
+      "2014-01-05": {
+        "buzzes": 7,
+        "doodads": 160,
+        "fizzes": 33,
+        "gizmos": 41,
+        "widgets": 20
+      },
+      "2014-01-06": {
+        "buzzes": 8,
+        "doodads": 355,
+        "fizzes": 118,
+        "gizmos": 125,
+        "widgets": 1
+      },
+      "2014-01-07": {
+        "buzzes": 5,
+        "doodads": 312,
+        "fizzes": 46,
+        "gizmos": 101,
+        "widgets": 5
+      },
+      "2014-01-08": {
+        "buzzes": 3,
+        "doodads": 445,
+        "fizzes": 73,
+        "gizmos": 11,
+        "widgets": 18
+      },
+      "2014-01-09": {
+        "buzzes": 5,
+        "doodads": 358,
+        "fizzes": 129,
+        "gizmos": 28,
+        "widgets": 23
+      },
+      "2014-01-10": {
+        "buzzes": 9,
+        "doodads": 294,
+        "fizzes": 91,
+        "gizmos": 165,
+        "widgets": 11
+      },
+      "2014-01-11": {
+        "buzzes": 9,
+        "doodads": 86,
+        "fizzes": 33,
+        "gizmos": 66,
+        "widgets": 25
+      },
+      "2014-01-03": {
+        "buzzes": 0,
+        "doodads": 171,
+        "fizzes": 0,
+        "gizmos": 110,
+        "widgets": 19
+      }
+    },
+    "id": 21
+  },
+  {
+    "name": "Michigan",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 6,
+        "doodads": 322,
+        "fizzes": 52,
+        "gizmos": 121,
+        "widgets": 3
+      },
+      "2014-01-02": {
+        "buzzes": 10,
+        "doodads": 158,
+        "fizzes": 51,
+        "gizmos": 157,
+        "widgets": 6
+      },
+      "2014-01-03": {
+        "buzzes": 6,
+        "doodads": 271,
+        "fizzes": 27,
+        "gizmos": 183,
+        "widgets": 16
+      },
+      "2014-01-04": {
+        "buzzes": 2,
+        "doodads": 306,
+        "fizzes": 78,
+        "gizmos": 111,
+        "widgets": 5
+      },
+      "2014-01-05": {
+        "buzzes": 10,
+        "doodads": 234,
+        "fizzes": 9,
+        "gizmos": 48,
+        "widgets": 11
+      },
+      "2014-01-06": {
+        "buzzes": 6,
+        "doodads": 23,
+        "fizzes": 101,
+        "gizmos": 91,
+        "widgets": 14
+      },
+      "2014-01-07": {
+        "buzzes": 0,
+        "doodads": 178,
+        "fizzes": 58,
+        "gizmos": 149,
+        "widgets": 5
+      },
+      "2014-01-08": {
+        "buzzes": 6,
+        "doodads": 190,
+        "fizzes": 135,
+        "gizmos": 177,
+        "widgets": 7
+      },
+      "2014-01-09": {
+        "buzzes": 1,
+        "doodads": 191,
+        "fizzes": 46,
+        "gizmos": 233,
+        "widgets": 13
+      },
+      "2014-01-10": {
+        "buzzes": 8,
+        "doodads": 40,
+        "fizzes": 50,
+        "gizmos": 224,
+        "widgets": 6
+      },
+      "2014-01-11": {
+        "buzzes": 3,
+        "doodads": 182,
+        "fizzes": 104,
+        "gizmos": 86,
+        "widgets": 4
+      }
+    },
+    "id": 22
+  },
+  {
+    "name": "Minnesota",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 10,
+        "doodads": 104,
+        "fizzes": 51,
+        "gizmos": 191,
+        "widgets": 24
+      },
+      "2014-01-02": {
+        "buzzes": 5,
+        "doodads": 173,
+        "fizzes": 87,
+        "gizmos": 85,
+        "widgets": 11
+      },
+      "2014-01-03": {
+        "buzzes": 9,
+        "doodads": 461,
+        "fizzes": 31,
+        "gizmos": 194,
+        "widgets": 16
+      },
+      "2014-01-04": {
+        "buzzes": 2,
+        "doodads": 349,
+        "fizzes": 111,
+        "gizmos": 50,
+        "widgets": 22
+      },
+      "2014-01-05": {
+        "buzzes": 3,
+        "doodads": 102,
+        "fizzes": 112,
+        "gizmos": 145,
+        "widgets": 19
+      },
+      "2014-01-06": {
+        "buzzes": 8,
+        "doodads": 34,
+        "fizzes": 119,
+        "gizmos": 238,
+        "widgets": 24
+      },
+      "2014-01-08": {
+        "buzzes": 8,
+        "doodads": 268,
+        "fizzes": 37,
+        "gizmos": 108,
+        "widgets": 14
+      },
+      "2014-01-09": {
+        "buzzes": 2,
+        "doodads": 214,
+        "fizzes": 64,
+        "gizmos": 235,
+        "widgets": 4
+      },
+      "2014-01-10": {
+        "buzzes": 1,
+        "doodads": 316,
+        "fizzes": 137,
+        "gizmos": 156,
+        "widgets": 0
+      },
+      "2014-01-11": {
+        "buzzes": 9,
+        "doodads": 196,
+        "fizzes": 86,
+        "gizmos": 63,
+        "widgets": 6
+      },
+      "2014-01-07": {
+        "buzzes": 7,
+        "doodads": 422,
+        "fizzes": 95,
+        "gizmos": 115,
+        "widgets": 2
+      }
+    },
+    "id": 23
+  },
+  {
+    "name": "Mississippi",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 9,
+        "doodads": 428,
+        "fizzes": 63,
+        "gizmos": 245,
+        "widgets": 21
+      },
+      "2014-01-03": {
+        "buzzes": 5,
+        "doodads": 379,
+        "fizzes": 128,
+        "gizmos": 105,
+        "widgets": 15
+      },
+      "2014-01-04": {
+        "buzzes": 6,
+        "doodads": 73,
+        "fizzes": 51,
+        "gizmos": 219,
+        "widgets": 1
+      },
+      "2014-01-05": {
+        "buzzes": 3,
+        "doodads": 235,
+        "fizzes": 4,
+        "gizmos": 138,
+        "widgets": 15
+      },
+      "2014-01-06": {
+        "buzzes": 3,
+        "doodads": 241,
+        "fizzes": 65,
+        "gizmos": 15,
+        "widgets": 7
+      },
+      "2014-01-09": {
+        "buzzes": 6,
+        "doodads": 382,
+        "fizzes": 85,
+        "gizmos": 173,
+        "widgets": 20
+      },
+      "2014-01-11": {
+        "buzzes": 0,
+        "doodads": 227,
+        "fizzes": 150,
+        "gizmos": 166,
+        "widgets": 19
+      },
+      "2014-01-02": {
+        "buzzes": 9,
+        "doodads": 428,
+        "fizzes": 107,
+        "gizmos": 248,
+        "widgets": 14
+      },
+      "2014-01-07": {
+        "buzzes": 9,
+        "doodads": 78,
+        "fizzes": 98,
+        "gizmos": 127,
+        "widgets": 19
+      },
+      "2014-01-08": {
+        "buzzes": 3,
+        "doodads": 37,
+        "fizzes": 143,
+        "gizmos": 240,
+        "widgets": 22
+      },
+      "2014-01-10": {
+        "buzzes": 0,
+        "doodads": 484,
+        "fizzes": 3,
+        "gizmos": 25,
+        "widgets": 15
+      }
+    },
+    "id": 24
+  },
+  {
+    "name": "Missouri",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 2,
+        "doodads": 365,
+        "fizzes": 137,
+        "gizmos": 146,
+        "widgets": 13
+      },
+      "2014-01-02": {
+        "buzzes": 8,
+        "doodads": 290,
+        "fizzes": 86,
+        "gizmos": 212,
+        "widgets": 1
+      },
+      "2014-01-03": {
+        "buzzes": 2,
+        "doodads": 301,
+        "fizzes": 87,
+        "gizmos": 112,
+        "widgets": 9
+      },
+      "2014-01-04": {
+        "buzzes": 6,
+        "doodads": 279,
+        "fizzes": 69,
+        "gizmos": 46,
+        "widgets": 6
+      },
+      "2014-01-05": {
+        "buzzes": 10,
+        "doodads": 385,
+        "fizzes": 70,
+        "gizmos": 195,
+        "widgets": 8
+      },
+      "2014-01-06": {
+        "buzzes": 2,
+        "doodads": 15,
+        "fizzes": 103,
+        "gizmos": 160,
+        "widgets": 9
+      },
+      "2014-01-07": {
+        "buzzes": 6,
+        "doodads": 180,
+        "fizzes": 126,
+        "gizmos": 66,
+        "widgets": 23
+      },
+      "2014-01-08": {
+        "buzzes": 5,
+        "doodads": 45,
+        "fizzes": 95,
+        "gizmos": 155,
+        "widgets": 21
+      },
+      "2014-01-09": {
+        "buzzes": 6,
+        "doodads": 66,
+        "fizzes": 148,
+        "gizmos": 139,
+        "widgets": 18
+      },
+      "2014-01-10": {
+        "buzzes": 6,
+        "doodads": 341,
+        "fizzes": 19,
+        "gizmos": 153,
+        "widgets": 20
+      },
+      "2014-01-11": {
+        "buzzes": 4,
+        "doodads": 361,
+        "fizzes": 60,
+        "gizmos": 97,
+        "widgets": 7
+      }
+    },
+    "id": 25
+  },
+  {
+    "name": "Montana",
+    "dates": {
+      "2014-01-07": {
+        "buzzes": 0,
+        "doodads": 59,
+        "fizzes": 58,
+        "gizmos": 178,
+        "widgets": 16
+      },
+      "2014-01-01": {
+        "buzzes": 9,
+        "doodads": 471,
+        "fizzes": 69,
+        "gizmos": 106,
+        "widgets": 23
+      },
+      "2014-01-02": {
+        "buzzes": 10,
+        "doodads": 177,
+        "fizzes": 19,
+        "gizmos": 201,
+        "widgets": 15
+      },
+      "2014-01-03": {
+        "buzzes": 2,
+        "doodads": 235,
+        "fizzes": 47,
+        "gizmos": 226,
+        "widgets": 23
+      },
+      "2014-01-04": {
+        "buzzes": 4,
+        "doodads": 58,
+        "fizzes": 55,
+        "gizmos": 28,
+        "widgets": 6
+      },
+      "2014-01-05": {
+        "buzzes": 2,
+        "doodads": 403,
+        "fizzes": 137,
+        "gizmos": 79,
+        "widgets": 6
+      },
+      "2014-01-06": {
+        "buzzes": 4,
+        "doodads": 244,
+        "fizzes": 101,
+        "gizmos": 237,
+        "widgets": 6
+      },
+      "2014-01-08": {
+        "buzzes": 1,
+        "doodads": 319,
+        "fizzes": 114,
+        "gizmos": 144,
+        "widgets": 15
+      },
+      "2014-01-09": {
+        "buzzes": 8,
+        "doodads": 138,
+        "fizzes": 34,
+        "gizmos": 86,
+        "widgets": 4
+      },
+      "2014-01-10": {
+        "buzzes": 3,
+        "doodads": 411,
+        "fizzes": 11,
+        "gizmos": 102,
+        "widgets": 16
+      },
+      "2014-01-11": {
+        "buzzes": 0,
+        "doodads": 58,
+        "fizzes": 138,
+        "gizmos": 77,
+        "widgets": 16
+      }
+    },
+    "id": 26
+  },
+  {
+    "name": "Nebraska",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 1,
+        "doodads": 241,
+        "fizzes": 20,
+        "gizmos": 144,
+        "widgets": 22
+      },
+      "2014-01-04": {
+        "buzzes": 8,
+        "doodads": 212,
+        "fizzes": 81,
+        "gizmos": 43,
+        "widgets": 20
+      },
+      "2014-01-08": {
+        "buzzes": 8,
+        "doodads": 219,
+        "fizzes": 56,
+        "gizmos": 240,
+        "widgets": 13
+      },
+      "2014-01-10": {
+        "buzzes": 2,
+        "doodads": 219,
+        "fizzes": 114,
+        "gizmos": 31,
+        "widgets": 23
+      },
+      "2014-01-11": {
+        "buzzes": 5,
+        "doodads": 265,
+        "fizzes": 91,
+        "gizmos": 245,
+        "widgets": 8
+      },
+      "2014-01-02": {
+        "buzzes": 5,
+        "doodads": 219,
+        "fizzes": 98,
+        "gizmos": 64,
+        "widgets": 19
+      },
+      "2014-01-03": {
+        "buzzes": 9,
+        "doodads": 464,
+        "fizzes": 75,
+        "gizmos": 151,
+        "widgets": 19
+      },
+      "2014-01-05": {
+        "buzzes": 8,
+        "doodads": 170,
+        "fizzes": 143,
+        "gizmos": 213,
+        "widgets": 22
+      },
+      "2014-01-06": {
+        "buzzes": 10,
+        "doodads": 283,
+        "fizzes": 41,
+        "gizmos": 135,
+        "widgets": 2
+      },
+      "2014-01-07": {
+        "buzzes": 2,
+        "doodads": 435,
+        "fizzes": 132,
+        "gizmos": 77,
+        "widgets": 11
+      },
+      "2014-01-09": {
+        "buzzes": 9,
+        "doodads": 213,
+        "fizzes": 34,
+        "gizmos": 197,
+        "widgets": 3
+      }
+    },
+    "id": 27
+  },
+  {
+    "name": "Nevada",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 0,
+        "doodads": 475,
+        "fizzes": 80,
+        "gizmos": 190,
+        "widgets": 22
+      },
+      "2014-01-05": {
+        "buzzes": 2,
+        "doodads": 360,
+        "fizzes": 93,
+        "gizmos": 232,
+        "widgets": 7
+      },
+      "2014-01-07": {
+        "buzzes": 9,
+        "doodads": 30,
+        "fizzes": 47,
+        "gizmos": 232,
+        "widgets": 14
+      },
+      "2014-01-08": {
+        "buzzes": 7,
+        "doodads": 166,
+        "fizzes": 0,
+        "gizmos": 184,
+        "widgets": 14
+      },
+      "2014-01-09": {
+        "buzzes": 6,
+        "doodads": 173,
+        "fizzes": 95,
+        "gizmos": 122,
+        "widgets": 23
+      },
+      "2014-01-10": {
+        "buzzes": 9,
+        "doodads": 205,
+        "fizzes": 130,
+        "gizmos": 148,
+        "widgets": 1
+      },
+      "2014-01-02": {
+        "buzzes": 0,
+        "doodads": 140,
+        "fizzes": 80,
+        "gizmos": 8,
+        "widgets": 20
+      },
+      "2014-01-03": {
+        "buzzes": 1,
+        "doodads": 331,
+        "fizzes": 67,
+        "gizmos": 141,
+        "widgets": 19
+      },
+      "2014-01-04": {
+        "buzzes": 3,
+        "doodads": 243,
+        "fizzes": 88,
+        "gizmos": 249,
+        "widgets": 4
+      },
+      "2014-01-06": {
+        "buzzes": 9,
+        "doodads": 71,
+        "fizzes": 78,
+        "gizmos": 119,
+        "widgets": 0
+      },
+      "2014-01-11": {
+        "buzzes": 4,
+        "doodads": 215,
+        "fizzes": 85,
+        "gizmos": 139,
+        "widgets": 2
+      }
+    },
+    "id": 28
+  },
+  {
+    "name": "New Hampshire",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 6,
+        "doodads": 373,
+        "fizzes": 69,
+        "gizmos": 99,
+        "widgets": 19
+      },
+      "2014-01-02": {
+        "buzzes": 3,
+        "doodads": 152,
+        "fizzes": 145,
+        "gizmos": 164,
+        "widgets": 22
+      },
+      "2014-01-03": {
+        "buzzes": 6,
+        "doodads": 414,
+        "fizzes": 125,
+        "gizmos": 179,
+        "widgets": 23
+      },
+      "2014-01-04": {
+        "buzzes": 5,
+        "doodads": 26,
+        "fizzes": 60,
+        "gizmos": 246,
+        "widgets": 21
+      },
+      "2014-01-05": {
+        "buzzes": 7,
+        "doodads": 344,
+        "fizzes": 100,
+        "gizmos": 73,
+        "widgets": 25
+      },
+      "2014-01-07": {
+        "buzzes": 2,
+        "doodads": 43,
+        "fizzes": 38,
+        "gizmos": 101,
+        "widgets": 0
+      },
+      "2014-01-08": {
+        "buzzes": 2,
+        "doodads": 314,
+        "fizzes": 150,
+        "gizmos": 177,
+        "widgets": 9
+      },
+      "2014-01-09": {
+        "buzzes": 6,
+        "doodads": 230,
+        "fizzes": 73,
+        "gizmos": 49,
+        "widgets": 19
+      },
+      "2014-01-10": {
+        "buzzes": 6,
+        "doodads": 247,
+        "fizzes": 98,
+        "gizmos": 192,
+        "widgets": 21
+      },
+      "2014-01-11": {
+        "buzzes": 6,
+        "doodads": 309,
+        "fizzes": 150,
+        "gizmos": 74,
+        "widgets": 8
+      },
+      "2014-01-06": {
+        "buzzes": 6,
+        "doodads": 428,
+        "fizzes": 35,
+        "gizmos": 176,
+        "widgets": 25
+      }
+    },
+    "id": 29
+  },
+  {
+    "name": "New Jersey",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 3,
+        "doodads": 150,
+        "fizzes": 81,
+        "gizmos": 90,
+        "widgets": 1
+      },
+      "2014-01-02": {
+        "buzzes": 10,
+        "doodads": 199,
+        "fizzes": 139,
+        "gizmos": 49,
+        "widgets": 23
+      },
+      "2014-01-03": {
+        "buzzes": 4,
+        "doodads": 451,
+        "fizzes": 116,
+        "gizmos": 122,
+        "widgets": 7
+      },
+      "2014-01-04": {
+        "buzzes": 4,
+        "doodads": 145,
+        "fizzes": 147,
+        "gizmos": 37,
+        "widgets": 16
+      },
+      "2014-01-05": {
+        "buzzes": 7,
+        "doodads": 365,
+        "fizzes": 36,
+        "gizmos": 19,
+        "widgets": 22
+      },
+      "2014-01-06": {
+        "buzzes": 8,
+        "doodads": 222,
+        "fizzes": 46,
+        "gizmos": 145,
+        "widgets": 7
+      },
+      "2014-01-07": {
+        "buzzes": 9,
+        "doodads": 26,
+        "fizzes": 117,
+        "gizmos": 23,
+        "widgets": 3
+      },
+      "2014-01-08": {
+        "buzzes": 6,
+        "doodads": 478,
+        "fizzes": 40,
+        "gizmos": 216,
+        "widgets": 1
+      },
+      "2014-01-09": {
+        "buzzes": 10,
+        "doodads": 126,
+        "fizzes": 68,
+        "gizmos": 144,
+        "widgets": 9
+      },
+      "2014-01-10": {
+        "buzzes": 9,
+        "doodads": 119,
+        "fizzes": 14,
+        "gizmos": 131,
+        "widgets": 4
+      },
+      "2014-01-11": {
+        "buzzes": 0,
+        "doodads": 210,
+        "fizzes": 146,
+        "gizmos": 240,
+        "widgets": 15
+      }
+    },
+    "id": 30
+  },
+  {
+    "name": "New Mexico",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 4,
+        "doodads": 17,
+        "fizzes": 13,
+        "gizmos": 235,
+        "widgets": 14
+      },
+      "2014-01-02": {
+        "buzzes": 9,
+        "doodads": 91,
+        "fizzes": 25,
+        "gizmos": 80,
+        "widgets": 12
+      },
+      "2014-01-03": {
+        "buzzes": 2,
+        "doodads": 492,
+        "fizzes": 12,
+        "gizmos": 7,
+        "widgets": 18
+      },
+      "2014-01-09": {
+        "buzzes": 0,
+        "doodads": 40,
+        "fizzes": 121,
+        "gizmos": 85,
+        "widgets": 20
+      },
+      "2014-01-10": {
+        "buzzes": 8,
+        "doodads": 146,
+        "fizzes": 14,
+        "gizmos": 112,
+        "widgets": 1
+      },
+      "2014-01-11": {
+        "buzzes": 1,
+        "doodads": 28,
+        "fizzes": 12,
+        "gizmos": 6,
+        "widgets": 20
+      },
+      "2014-01-04": {
+        "buzzes": 5,
+        "doodads": 335,
+        "fizzes": 102,
+        "gizmos": 133,
+        "widgets": 15
+      },
+      "2014-01-05": {
+        "buzzes": 2,
+        "doodads": 250,
+        "fizzes": 145,
+        "gizmos": 230,
+        "widgets": 6
+      },
+      "2014-01-06": {
+        "buzzes": 0,
+        "doodads": 24,
+        "fizzes": 141,
+        "gizmos": 165,
+        "widgets": 17
+      },
+      "2014-01-07": {
+        "buzzes": 5,
+        "doodads": 263,
+        "fizzes": 30,
+        "gizmos": 90,
+        "widgets": 10
+      },
+      "2014-01-08": {
+        "buzzes": 10,
+        "doodads": 254,
+        "fizzes": 50,
+        "gizmos": 156,
+        "widgets": 3
+      }
+    },
+    "id": 31
+  },
+  {
+    "name": "New York",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 8,
+        "doodads": 105,
+        "fizzes": 27,
+        "gizmos": 204,
+        "widgets": 7
+      },
+      "2014-01-02": {
+        "buzzes": 9,
+        "doodads": 428,
+        "fizzes": 48,
+        "gizmos": 202,
+        "widgets": 7
+      },
+      "2014-01-03": {
+        "buzzes": 4,
+        "doodads": 266,
+        "fizzes": 59,
+        "gizmos": 60,
+        "widgets": 21
+      },
+      "2014-01-04": {
+        "buzzes": 5,
+        "doodads": 61,
+        "fizzes": 2,
+        "gizmos": 45,
+        "widgets": 12
+      },
+      "2014-01-05": {
+        "buzzes": 5,
+        "doodads": 117,
+        "fizzes": 2,
+        "gizmos": 234,
+        "widgets": 10
+      },
+      "2014-01-06": {
+        "buzzes": 3,
+        "doodads": 7,
+        "fizzes": 46,
+        "gizmos": 101,
+        "widgets": 21
+      },
+      "2014-01-07": {
+        "buzzes": 4,
+        "doodads": 313,
+        "fizzes": 130,
+        "gizmos": 60,
+        "widgets": 12
+      },
+      "2014-01-08": {
+        "buzzes": 5,
+        "doodads": 322,
+        "fizzes": 71,
+        "gizmos": 245,
+        "widgets": 5
+      },
+      "2014-01-09": {
+        "buzzes": 3,
+        "doodads": 308,
+        "fizzes": 102,
+        "gizmos": 73,
+        "widgets": 0
+      },
+      "2014-01-10": {
+        "buzzes": 10,
+        "doodads": 357,
+        "fizzes": 6,
+        "gizmos": 34,
+        "widgets": 19
+      },
+      "2014-01-11": {
+        "buzzes": 7,
+        "doodads": 23,
+        "fizzes": 2,
+        "gizmos": 2,
+        "widgets": 25
+      }
+    },
+    "id": 32
+  },
+  {
+    "name": "North Carolina",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 7,
+        "doodads": 122,
+        "fizzes": 58,
+        "gizmos": 56,
+        "widgets": 6
+      },
+      "2014-01-02": {
+        "buzzes": 7,
+        "doodads": 64,
+        "fizzes": 104,
+        "gizmos": 28,
+        "widgets": 20
+      },
+      "2014-01-03": {
+        "buzzes": 1,
+        "doodads": 469,
+        "fizzes": 59,
+        "gizmos": 188,
+        "widgets": 19
+      },
+      "2014-01-04": {
+        "buzzes": 2,
+        "doodads": 272,
+        "fizzes": 120,
+        "gizmos": 11,
+        "widgets": 12
+      },
+      "2014-01-05": {
+        "buzzes": 3,
+        "doodads": 494,
+        "fizzes": 1,
+        "gizmos": 105,
+        "widgets": 15
+      },
+      "2014-01-06": {
+        "buzzes": 2,
+        "doodads": 368,
+        "fizzes": 54,
+        "gizmos": 153,
+        "widgets": 7
+      },
+      "2014-01-07": {
+        "buzzes": 7,
+        "doodads": 97,
+        "fizzes": 75,
+        "gizmos": 181,
+        "widgets": 25
+      },
+      "2014-01-08": {
+        "buzzes": 3,
+        "doodads": 31,
+        "fizzes": 38,
+        "gizmos": 41,
+        "widgets": 24
+      },
+      "2014-01-09": {
+        "buzzes": 1,
+        "doodads": 196,
+        "fizzes": 71,
+        "gizmos": 94,
+        "widgets": 5
+      },
+      "2014-01-10": {
+        "buzzes": 0,
+        "doodads": 97,
+        "fizzes": 104,
+        "gizmos": 15,
+        "widgets": 12
+      },
+      "2014-01-11": {
+        "buzzes": 2,
+        "doodads": 177,
+        "fizzes": 146,
+        "gizmos": 5,
+        "widgets": 25
+      }
+    },
+    "id": 33
+  },
+  {
+    "name": "North Dakota",
+    "dates": {
+      "2014-01-02": {
+        "buzzes": 5,
+        "doodads": 486,
+        "fizzes": 127,
+        "gizmos": 215,
+        "widgets": 7
+      },
+      "2014-01-03": {
+        "buzzes": 7,
+        "doodads": 266,
+        "fizzes": 134,
+        "gizmos": 75,
+        "widgets": 20
+      },
+      "2014-01-05": {
+        "buzzes": 6,
+        "doodads": 142,
+        "fizzes": 32,
+        "gizmos": 186,
+        "widgets": 2
+      },
+      "2014-01-01": {
+        "buzzes": 0,
+        "doodads": 238,
+        "fizzes": 104,
+        "gizmos": 181,
+        "widgets": 3
+      },
+      "2014-01-04": {
+        "buzzes": 9,
+        "doodads": 149,
+        "fizzes": 9,
+        "gizmos": 35,
+        "widgets": 5
+      },
+      "2014-01-06": {
+        "buzzes": 7,
+        "doodads": 350,
+        "fizzes": 147,
+        "gizmos": 24,
+        "widgets": 21
+      },
+      "2014-01-07": {
+        "buzzes": 6,
+        "doodads": 381,
+        "fizzes": 4,
+        "gizmos": 173,
+        "widgets": 6
+      },
+      "2014-01-08": {
+        "buzzes": 5,
+        "doodads": 85,
+        "fizzes": 123,
+        "gizmos": 183,
+        "widgets": 16
+      },
+      "2014-01-09": {
+        "buzzes": 4,
+        "doodads": 309,
+        "fizzes": 107,
+        "gizmos": 231,
+        "widgets": 11
+      },
+      "2014-01-10": {
+        "buzzes": 5,
+        "doodads": 64,
+        "fizzes": 62,
+        "gizmos": 111,
+        "widgets": 8
+      },
+      "2014-01-11": {
+        "buzzes": 1,
+        "doodads": 259,
+        "fizzes": 66,
+        "gizmos": 202,
+        "widgets": 2
+      }
+    },
+    "id": 34
+  },
+  {
+    "name": "Ohio",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 6,
+        "doodads": 392,
+        "fizzes": 145,
+        "gizmos": 182,
+        "widgets": 11
+      },
+      "2014-01-02": {
+        "buzzes": 2,
+        "doodads": 36,
+        "fizzes": 140,
+        "gizmos": 113,
+        "widgets": 9
+      },
+      "2014-01-03": {
+        "buzzes": 5,
+        "doodads": 433,
+        "fizzes": 59,
+        "gizmos": 10,
+        "widgets": 19
+      },
+      "2014-01-04": {
+        "buzzes": 6,
+        "doodads": 119,
+        "fizzes": 144,
+        "gizmos": 52,
+        "widgets": 1
+      },
+      "2014-01-05": {
+        "buzzes": 8,
+        "doodads": 457,
+        "fizzes": 57,
+        "gizmos": 51,
+        "widgets": 20
+      },
+      "2014-01-06": {
+        "buzzes": 10,
+        "doodads": 21,
+        "fizzes": 6,
+        "gizmos": 73,
+        "widgets": 3
+      },
+      "2014-01-07": {
+        "buzzes": 10,
+        "doodads": 230,
+        "fizzes": 105,
+        "gizmos": 126,
+        "widgets": 13
+      },
+      "2014-01-08": {
+        "buzzes": 5,
+        "doodads": 171,
+        "fizzes": 57,
+        "gizmos": 145,
+        "widgets": 22
+      },
+      "2014-01-09": {
+        "buzzes": 7,
+        "doodads": 156,
+        "fizzes": 21,
+        "gizmos": 21,
+        "widgets": 25
+      },
+      "2014-01-10": {
+        "buzzes": 9,
+        "doodads": 376,
+        "fizzes": 52,
+        "gizmos": 122,
+        "widgets": 20
+      },
+      "2014-01-11": {
+        "buzzes": 5,
+        "doodads": 139,
+        "fizzes": 125,
+        "gizmos": 165,
+        "widgets": 3
+      }
+    },
+    "id": 35
+  },
+  {
+    "name": "Oklahoma",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 0,
+        "doodads": 3,
+        "fizzes": 118,
+        "gizmos": 223,
+        "widgets": 15
+      },
+      "2014-01-03": {
+        "buzzes": 0,
+        "doodads": 45,
+        "fizzes": 14,
+        "gizmos": 171,
+        "widgets": 24
+      },
+      "2014-01-04": {
+        "buzzes": 2,
+        "doodads": 365,
+        "fizzes": 132,
+        "gizmos": 212,
+        "widgets": 6
+      },
+      "2014-01-05": {
+        "buzzes": 2,
+        "doodads": 5,
+        "fizzes": 114,
+        "gizmos": 76,
+        "widgets": 8
+      },
+      "2014-01-06": {
+        "buzzes": 10,
+        "doodads": 97,
+        "fizzes": 109,
+        "gizmos": 2,
+        "widgets": 15
+      },
+      "2014-01-07": {
+        "buzzes": 6,
+        "doodads": 465,
+        "fizzes": 78,
+        "gizmos": 107,
+        "widgets": 17
+      },
+      "2014-01-09": {
+        "buzzes": 10,
+        "doodads": 184,
+        "fizzes": 99,
+        "gizmos": 40,
+        "widgets": 5
+      },
+      "2014-01-10": {
+        "buzzes": 9,
+        "doodads": 386,
+        "fizzes": 0,
+        "gizmos": 5,
+        "widgets": 20
+      },
+      "2014-01-02": {
+        "buzzes": 6,
+        "doodads": 428,
+        "fizzes": 54,
+        "gizmos": 210,
+        "widgets": 23
+      },
+      "2014-01-08": {
+        "buzzes": 3,
+        "doodads": 316,
+        "fizzes": 125,
+        "gizmos": 79,
+        "widgets": 12
+      },
+      "2014-01-11": {
+        "buzzes": 0,
+        "doodads": 394,
+        "fizzes": 102,
+        "gizmos": 13,
+        "widgets": 19
+      }
+    },
+    "id": 36
+  },
+  {
+    "name": "Oregon",
+    "dates": {
+      "2014-01-02": {
+        "buzzes": 9,
+        "doodads": 488,
+        "fizzes": 140,
+        "gizmos": 149,
+        "widgets": 25
+      },
+      "2014-01-04": {
+        "buzzes": 8,
+        "doodads": 16,
+        "fizzes": 66,
+        "gizmos": 230,
+        "widgets": 21
+      },
+      "2014-01-06": {
+        "buzzes": 7,
+        "doodads": 384,
+        "fizzes": 68,
+        "gizmos": 220,
+        "widgets": 9
+      },
+      "2014-01-07": {
+        "buzzes": 4,
+        "doodads": 408,
+        "fizzes": 48,
+        "gizmos": 33,
+        "widgets": 8
+      },
+      "2014-01-08": {
+        "buzzes": 10,
+        "doodads": 389,
+        "fizzes": 9,
+        "gizmos": 113,
+        "widgets": 13
+      },
+      "2014-01-09": {
+        "buzzes": 7,
+        "doodads": 130,
+        "fizzes": 86,
+        "gizmos": 104,
+        "widgets": 0
+      },
+      "2014-01-01": {
+        "buzzes": 0,
+        "doodads": 115,
+        "fizzes": 35,
+        "gizmos": 74,
+        "widgets": 2
+      },
+      "2014-01-03": {
+        "buzzes": 1,
+        "doodads": 163,
+        "fizzes": 16,
+        "gizmos": 144,
+        "widgets": 23
+      },
+      "2014-01-05": {
+        "buzzes": 7,
+        "doodads": 192,
+        "fizzes": 128,
+        "gizmos": 235,
+        "widgets": 8
+      },
+      "2014-01-10": {
+        "buzzes": 10,
+        "doodads": 112,
+        "fizzes": 3,
+        "gizmos": 113,
+        "widgets": 10
+      },
+      "2014-01-11": {
+        "buzzes": 1,
+        "doodads": 431,
+        "fizzes": 69,
+        "gizmos": 149,
+        "widgets": 10
+      }
+    },
+    "id": 37
+  },
+  {
+    "name": "Pennsylvania",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 7,
+        "doodads": 240,
+        "fizzes": 47,
+        "gizmos": 54,
+        "widgets": 24
+      },
+      "2014-01-02": {
+        "buzzes": 3,
+        "doodads": 358,
+        "fizzes": 118,
+        "gizmos": 140,
+        "widgets": 10
+      },
+      "2014-01-03": {
+        "buzzes": 0,
+        "doodads": 415,
+        "fizzes": 89,
+        "gizmos": 39,
+        "widgets": 2
+      },
+      "2014-01-04": {
+        "buzzes": 3,
+        "doodads": 431,
+        "fizzes": 78,
+        "gizmos": 37,
+        "widgets": 21
+      },
+      "2014-01-05": {
+        "buzzes": 3,
+        "doodads": 432,
+        "fizzes": 147,
+        "gizmos": 25,
+        "widgets": 2
+      },
+      "2014-01-06": {
+        "buzzes": 3,
+        "doodads": 172,
+        "fizzes": 54,
+        "gizmos": 216,
+        "widgets": 13
+      },
+      "2014-01-07": {
+        "buzzes": 7,
+        "doodads": 475,
+        "fizzes": 122,
+        "gizmos": 75,
+        "widgets": 13
+      },
+      "2014-01-08": {
+        "buzzes": 0,
+        "doodads": 87,
+        "fizzes": 39,
+        "gizmos": 100,
+        "widgets": 6
+      },
+      "2014-01-09": {
+        "buzzes": 10,
+        "doodads": 302,
+        "fizzes": 114,
+        "gizmos": 222,
+        "widgets": 23
+      },
+      "2014-01-10": {
+        "buzzes": 6,
+        "doodads": 43,
+        "fizzes": 76,
+        "gizmos": 135,
+        "widgets": 22
+      },
+      "2014-01-11": {
+        "buzzes": 3,
+        "doodads": 11,
+        "fizzes": 82,
+        "gizmos": 9,
+        "widgets": 12
+      }
+    },
+    "id": 38
+  },
+  {
+    "name": "Rhode Island",
+    "dates": {
+      "2014-01-02": {
+        "buzzes": 7,
+        "doodads": 288,
+        "fizzes": 120,
+        "gizmos": 106,
+        "widgets": 20
+      },
+      "2014-01-03": {
+        "buzzes": 10,
+        "doodads": 400,
+        "fizzes": 145,
+        "gizmos": 45,
+        "widgets": 17
+      },
+      "2014-01-04": {
+        "buzzes": 8,
+        "doodads": 492,
+        "fizzes": 48,
+        "gizmos": 98,
+        "widgets": 15
+      },
+      "2014-01-05": {
+        "buzzes": 10,
+        "doodads": 85,
+        "fizzes": 90,
+        "gizmos": 101,
+        "widgets": 1
+      },
+      "2014-01-06": {
+        "buzzes": 7,
+        "doodads": 400,
+        "fizzes": 9,
+        "gizmos": 112,
+        "widgets": 2
+      },
+      "2014-01-08": {
+        "buzzes": 8,
+        "doodads": 175,
+        "fizzes": 6,
+        "gizmos": 188,
+        "widgets": 2
+      },
+      "2014-01-11": {
+        "buzzes": 4,
+        "doodads": 21,
+        "fizzes": 112,
+        "gizmos": 24,
+        "widgets": 1
+      },
+      "2014-01-01": {
+        "buzzes": 6,
+        "doodads": 219,
+        "fizzes": 25,
+        "gizmos": 70,
+        "widgets": 16
+      },
+      "2014-01-07": {
+        "buzzes": 9,
+        "doodads": 191,
+        "fizzes": 112,
+        "gizmos": 88,
+        "widgets": 12
+      },
+      "2014-01-09": {
+        "buzzes": 0,
+        "doodads": 100,
+        "fizzes": 40,
+        "gizmos": 94,
+        "widgets": 13
+      },
+      "2014-01-10": {
+        "buzzes": 1,
+        "doodads": 200,
+        "fizzes": 120,
+        "gizmos": 89,
+        "widgets": 21
+      }
+    },
+    "id": 39
+  },
+  {
+    "name": "South Carolina",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 9,
+        "doodads": 484,
+        "fizzes": 43,
+        "gizmos": 238,
+        "widgets": 12
+      },
+      "2014-01-02": {
+        "buzzes": 7,
+        "doodads": 283,
+        "fizzes": 122,
+        "gizmos": 74,
+        "widgets": 23
+      },
+      "2014-01-03": {
+        "buzzes": 1,
+        "doodads": 139,
+        "fizzes": 93,
+        "gizmos": 212,
+        "widgets": 4
+      },
+      "2014-01-04": {
+        "buzzes": 6,
+        "doodads": 280,
+        "fizzes": 101,
+        "gizmos": 218,
+        "widgets": 4
+      },
+      "2014-01-05": {
+        "buzzes": 10,
+        "doodads": 19,
+        "fizzes": 50,
+        "gizmos": 43,
+        "widgets": 17
+      },
+      "2014-01-06": {
+        "buzzes": 2,
+        "doodads": 358,
+        "fizzes": 67,
+        "gizmos": 122,
+        "widgets": 6
+      },
+      "2014-01-07": {
+        "buzzes": 3,
+        "doodads": 284,
+        "fizzes": 46,
+        "gizmos": 156,
+        "widgets": 1
+      },
+      "2014-01-08": {
+        "buzzes": 1,
+        "doodads": 170,
+        "fizzes": 47,
+        "gizmos": 77,
+        "widgets": 6
+      },
+      "2014-01-09": {
+        "buzzes": 4,
+        "doodads": 181,
+        "fizzes": 30,
+        "gizmos": 231,
+        "widgets": 19
+      },
+      "2014-01-10": {
+        "buzzes": 1,
+        "doodads": 217,
+        "fizzes": 37,
+        "gizmos": 62,
+        "widgets": 14
+      },
+      "2014-01-11": {
+        "buzzes": 9,
+        "doodads": 133,
+        "fizzes": 71,
+        "gizmos": 41,
+        "widgets": 4
+      }
+    },
+    "id": 40
+  },
+  {
+    "name": "South Dakota",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 10,
+        "doodads": 42,
+        "fizzes": 112,
+        "gizmos": 189,
+        "widgets": 12
+      },
+      "2014-01-02": {
+        "buzzes": 6,
+        "doodads": 265,
+        "fizzes": 101,
+        "gizmos": 27,
+        "widgets": 12
+      },
+      "2014-01-05": {
+        "buzzes": 8,
+        "doodads": 192,
+        "fizzes": 120,
+        "gizmos": 167,
+        "widgets": 0
+      },
+      "2014-01-10": {
+        "buzzes": 2,
+        "doodads": 136,
+        "fizzes": 38,
+        "gizmos": 181,
+        "widgets": 4
+      },
+      "2014-01-03": {
+        "buzzes": 6,
+        "doodads": 341,
+        "fizzes": 71,
+        "gizmos": 233,
+        "widgets": 11
+      },
+      "2014-01-04": {
+        "buzzes": 10,
+        "doodads": 391,
+        "fizzes": 98,
+        "gizmos": 219,
+        "widgets": 13
+      },
+      "2014-01-06": {
+        "buzzes": 5,
+        "doodads": 421,
+        "fizzes": 96,
+        "gizmos": 13,
+        "widgets": 6
+      },
+      "2014-01-07": {
+        "buzzes": 8,
+        "doodads": 252,
+        "fizzes": 123,
+        "gizmos": 194,
+        "widgets": 18
+      },
+      "2014-01-08": {
+        "buzzes": 1,
+        "doodads": 73,
+        "fizzes": 73,
+        "gizmos": 178,
+        "widgets": 12
+      },
+      "2014-01-09": {
+        "buzzes": 8,
+        "doodads": 245,
+        "fizzes": 61,
+        "gizmos": 101,
+        "widgets": 23
+      },
+      "2014-01-11": {
+        "buzzes": 5,
+        "doodads": 114,
+        "fizzes": 52,
+        "gizmos": 75,
+        "widgets": 7
+      }
+    },
+    "id": 41
+  },
+  {
+    "name": "Tennessee",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 5,
+        "doodads": 403,
+        "fizzes": 11,
+        "gizmos": 83,
+        "widgets": 5
+      },
+      "2014-01-02": {
+        "buzzes": 4,
+        "doodads": 344,
+        "fizzes": 123,
+        "gizmos": 6,
+        "widgets": 11
+      },
+      "2014-01-03": {
+        "buzzes": 9,
+        "doodads": 288,
+        "fizzes": 94,
+        "gizmos": 15,
+        "widgets": 10
+      },
+      "2014-01-04": {
+        "buzzes": 3,
+        "doodads": 291,
+        "fizzes": 86,
+        "gizmos": 36,
+        "widgets": 18
+      },
+      "2014-01-06": {
+        "buzzes": 0,
+        "doodads": 319,
+        "fizzes": 39,
+        "gizmos": 59,
+        "widgets": 24
+      },
+      "2014-01-07": {
+        "buzzes": 4,
+        "doodads": 30,
+        "fizzes": 55,
+        "gizmos": 170,
+        "widgets": 6
+      },
+      "2014-01-08": {
+        "buzzes": 2,
+        "doodads": 161,
+        "fizzes": 23,
+        "gizmos": 109,
+        "widgets": 15
+      },
+      "2014-01-09": {
+        "buzzes": 10,
+        "doodads": 175,
+        "fizzes": 18,
+        "gizmos": 123,
+        "widgets": 10
+      },
+      "2014-01-10": {
+        "buzzes": 4,
+        "doodads": 15,
+        "fizzes": 119,
+        "gizmos": 0,
+        "widgets": 20
+      },
+      "2014-01-11": {
+        "buzzes": 1,
+        "doodads": 405,
+        "fizzes": 60,
+        "gizmos": 130,
+        "widgets": 21
+      },
+      "2014-01-05": {
+        "buzzes": 1,
+        "doodads": 54,
+        "fizzes": 47,
+        "gizmos": 173,
+        "widgets": 25
+      }
+    },
+    "id": 42
+  },
+  {
+    "name": "Texas",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 7,
+        "doodads": 387,
+        "fizzes": 80,
+        "gizmos": 121,
+        "widgets": 10
+      },
+      "2014-01-02": {
+        "buzzes": 2,
+        "doodads": 120,
+        "fizzes": 133,
+        "gizmos": 149,
+        "widgets": 23
+      },
+      "2014-01-03": {
+        "buzzes": 4,
+        "doodads": 181,
+        "fizzes": 100,
+        "gizmos": 26,
+        "widgets": 2
+      },
+      "2014-01-04": {
+        "buzzes": 0,
+        "doodads": 472,
+        "fizzes": 19,
+        "gizmos": 32,
+        "widgets": 20
+      },
+      "2014-01-05": {
+        "buzzes": 3,
+        "doodads": 74,
+        "fizzes": 99,
+        "gizmos": 177,
+        "widgets": 7
+      },
+      "2014-01-06": {
+        "buzzes": 10,
+        "doodads": 27,
+        "fizzes": 97,
+        "gizmos": 245,
+        "widgets": 5
+      },
+      "2014-01-07": {
+        "buzzes": 7,
+        "doodads": 149,
+        "fizzes": 107,
+        "gizmos": 138,
+        "widgets": 12
+      },
+      "2014-01-08": {
+        "buzzes": 1,
+        "doodads": 440,
+        "fizzes": 37,
+        "gizmos": 161,
+        "widgets": 22
+      },
+      "2014-01-09": {
+        "buzzes": 8,
+        "doodads": 197,
+        "fizzes": 2,
+        "gizmos": 126,
+        "widgets": 22
+      },
+      "2014-01-10": {
+        "buzzes": 10,
+        "doodads": 65,
+        "fizzes": 26,
+        "gizmos": 39,
+        "widgets": 25
+      },
+      "2014-01-11": {
+        "buzzes": 10,
+        "doodads": 208,
+        "fizzes": 118,
+        "gizmos": 152,
+        "widgets": 10
+      }
+    },
+    "id": 43
+  },
+  {
+    "name": "Utah",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 6,
+        "doodads": 357,
+        "fizzes": 41,
+        "gizmos": 101,
+        "widgets": 14
+      },
+      "2014-01-04": {
+        "buzzes": 5,
+        "doodads": 208,
+        "fizzes": 71,
+        "gizmos": 64,
+        "widgets": 10
+      },
+      "2014-01-05": {
+        "buzzes": 0,
+        "doodads": 135,
+        "fizzes": 53,
+        "gizmos": 6,
+        "widgets": 11
+      },
+      "2014-01-06": {
+        "buzzes": 3,
+        "doodads": 438,
+        "fizzes": 30,
+        "gizmos": 1,
+        "widgets": 16
+      },
+      "2014-01-08": {
+        "buzzes": 10,
+        "doodads": 320,
+        "fizzes": 41,
+        "gizmos": 22,
+        "widgets": 20
+      },
+      "2014-01-09": {
+        "buzzes": 9,
+        "doodads": 148,
+        "fizzes": 148,
+        "gizmos": 12,
+        "widgets": 12
+      },
+      "2014-01-02": {
+        "buzzes": 9,
+        "doodads": 90,
+        "fizzes": 2,
+        "gizmos": 105,
+        "widgets": 11
+      },
+      "2014-01-03": {
+        "buzzes": 5,
+        "doodads": 29,
+        "fizzes": 108,
+        "gizmos": 13,
+        "widgets": 1
+      },
+      "2014-01-07": {
+        "buzzes": 10,
+        "doodads": 380,
+        "fizzes": 112,
+        "gizmos": 121,
+        "widgets": 21
+      },
+      "2014-01-10": {
+        "buzzes": 4,
+        "doodads": 243,
+        "fizzes": 90,
+        "gizmos": 199,
+        "widgets": 2
+      },
+      "2014-01-11": {
+        "buzzes": 4,
+        "doodads": 56,
+        "fizzes": 5,
+        "gizmos": 60,
+        "widgets": 4
+      }
+    },
+    "id": 44
+  },
+  {
+    "name": "Vermont",
+    "dates": {
+      "2014-01-04": {
+        "buzzes": 3,
+        "doodads": 225,
+        "fizzes": 131,
+        "gizmos": 97,
+        "widgets": 22
+      },
+      "2014-01-05": {
+        "buzzes": 8,
+        "doodads": 129,
+        "fizzes": 28,
+        "gizmos": 129,
+        "widgets": 18
+      },
+      "2014-01-01": {
+        "buzzes": 1,
+        "doodads": 393,
+        "fizzes": 16,
+        "gizmos": 164,
+        "widgets": 15
+      },
+      "2014-01-02": {
+        "buzzes": 6,
+        "doodads": 173,
+        "fizzes": 82,
+        "gizmos": 198,
+        "widgets": 21
+      },
+      "2014-01-03": {
+        "buzzes": 9,
+        "doodads": 272,
+        "fizzes": 85,
+        "gizmos": 23,
+        "widgets": 25
+      },
+      "2014-01-06": {
+        "buzzes": 7,
+        "doodads": 158,
+        "fizzes": 50,
+        "gizmos": 103,
+        "widgets": 4
+      },
+      "2014-01-07": {
+        "buzzes": 5,
+        "doodads": 57,
+        "fizzes": 27,
+        "gizmos": 99,
+        "widgets": 18
+      },
+      "2014-01-08": {
+        "buzzes": 3,
+        "doodads": 429,
+        "fizzes": 21,
+        "gizmos": 26,
+        "widgets": 11
+      },
+      "2014-01-09": {
+        "buzzes": 0,
+        "doodads": 297,
+        "fizzes": 91,
+        "gizmos": 219,
+        "widgets": 9
+      },
+      "2014-01-10": {
+        "buzzes": 6,
+        "doodads": 492,
+        "fizzes": 29,
+        "gizmos": 203,
+        "widgets": 15
+      },
+      "2014-01-11": {
+        "buzzes": 10,
+        "doodads": 104,
+        "fizzes": 109,
+        "gizmos": 5,
+        "widgets": 18
+      }
+    },
+    "id": 45
+  },
+  {
+    "name": "Virginia",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 6,
+        "doodads": 395,
+        "fizzes": 117,
+        "gizmos": 63,
+        "widgets": 8
+      },
+      "2014-01-02": {
+        "buzzes": 10,
+        "doodads": 364,
+        "fizzes": 18,
+        "gizmos": 171,
+        "widgets": 24
+      },
+      "2014-01-03": {
+        "buzzes": 9,
+        "doodads": 284,
+        "fizzes": 18,
+        "gizmos": 207,
+        "widgets": 9
+      },
+      "2014-01-04": {
+        "buzzes": 5,
+        "doodads": 394,
+        "fizzes": 19,
+        "gizmos": 131,
+        "widgets": 22
+      },
+      "2014-01-05": {
+        "buzzes": 3,
+        "doodads": 180,
+        "fizzes": 95,
+        "gizmos": 89,
+        "widgets": 22
+      },
+      "2014-01-07": {
+        "buzzes": 9,
+        "doodads": 61,
+        "fizzes": 128,
+        "gizmos": 186,
+        "widgets": 18
+      },
+      "2014-01-08": {
+        "buzzes": 0,
+        "doodads": 353,
+        "fizzes": 66,
+        "gizmos": 139,
+        "widgets": 2
+      },
+      "2014-01-09": {
+        "buzzes": 3,
+        "doodads": 277,
+        "fizzes": 19,
+        "gizmos": 56,
+        "widgets": 7
+      },
+      "2014-01-10": {
+        "buzzes": 10,
+        "doodads": 409,
+        "fizzes": 141,
+        "gizmos": 134,
+        "widgets": 15
+      },
+      "2014-01-11": {
+        "buzzes": 6,
+        "doodads": 2,
+        "fizzes": 37,
+        "gizmos": 201,
+        "widgets": 9
+      },
+      "2014-01-06": {
+        "buzzes": 4,
+        "doodads": 215,
+        "fizzes": 74,
+        "gizmos": 219,
+        "widgets": 15
+      }
+    },
+    "id": 46
+  },
+  {
+    "name": "Washington",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 4,
+        "doodads": 235,
+        "fizzes": 100,
+        "gizmos": 162,
+        "widgets": 4
+      },
+      "2014-01-02": {
+        "buzzes": 0,
+        "doodads": 79,
+        "fizzes": 63,
+        "gizmos": 166,
+        "widgets": 22
+      },
+      "2014-01-03": {
+        "buzzes": 1,
+        "doodads": 153,
+        "fizzes": 79,
+        "gizmos": 165,
+        "widgets": 7
+      },
+      "2014-01-04": {
+        "buzzes": 6,
+        "doodads": 361,
+        "fizzes": 8,
+        "gizmos": 3,
+        "widgets": 16
+      },
+      "2014-01-06": {
+        "buzzes": 3,
+        "doodads": 211,
+        "fizzes": 144,
+        "gizmos": 219,
+        "widgets": 3
+      },
+      "2014-01-07": {
+        "buzzes": 10,
+        "doodads": 140,
+        "fizzes": 4,
+        "gizmos": 10,
+        "widgets": 11
+      },
+      "2014-01-08": {
+        "buzzes": 10,
+        "doodads": 165,
+        "fizzes": 86,
+        "gizmos": 240,
+        "widgets": 12
+      },
+      "2014-01-09": {
+        "buzzes": 1,
+        "doodads": 177,
+        "fizzes": 48,
+        "gizmos": 158,
+        "widgets": 7
+      },
+      "2014-01-10": {
+        "buzzes": 0,
+        "doodads": 209,
+        "fizzes": 19,
+        "gizmos": 146,
+        "widgets": 23
+      },
+      "2014-01-11": {
+        "buzzes": 1,
+        "doodads": 74,
+        "fizzes": 133,
+        "gizmos": 77,
+        "widgets": 22
+      },
+      "2014-01-05": {
+        "buzzes": 6,
+        "doodads": 355,
+        "fizzes": 77,
+        "gizmos": 20,
+        "widgets": 14
+      }
+    },
+    "id": 47
+  },
+  {
+    "name": "West Virginia",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 3,
+        "doodads": 276,
+        "fizzes": 82,
+        "gizmos": 186,
+        "widgets": 1
+      },
+      "2014-01-02": {
+        "buzzes": 10,
+        "doodads": 186,
+        "fizzes": 60,
+        "gizmos": 105,
+        "widgets": 13
+      },
+      "2014-01-06": {
+        "buzzes": 8,
+        "doodads": 462,
+        "fizzes": 112,
+        "gizmos": 185,
+        "widgets": 1
+      },
+      "2014-01-08": {
+        "buzzes": 3,
+        "doodads": 486,
+        "fizzes": 86,
+        "gizmos": 184,
+        "widgets": 2
+      },
+      "2014-01-11": {
+        "buzzes": 10,
+        "doodads": 316,
+        "fizzes": 52,
+        "gizmos": 44,
+        "widgets": 23
+      },
+      "2014-01-03": {
+        "buzzes": 2,
+        "doodads": 120,
+        "fizzes": 125,
+        "gizmos": 5,
+        "widgets": 10
+      },
+      "2014-01-04": {
+        "buzzes": 8,
+        "doodads": 110,
+        "fizzes": 3,
+        "gizmos": 69,
+        "widgets": 14
+      },
+      "2014-01-05": {
+        "buzzes": 8,
+        "doodads": 66,
+        "fizzes": 49,
+        "gizmos": 112,
+        "widgets": 1
+      },
+      "2014-01-07": {
+        "buzzes": 1,
+        "doodads": 151,
+        "fizzes": 25,
+        "gizmos": 51,
+        "widgets": 15
+      },
+      "2014-01-09": {
+        "buzzes": 2,
+        "doodads": 162,
+        "fizzes": 105,
+        "gizmos": 111,
+        "widgets": 8
+      },
+      "2014-01-10": {
+        "buzzes": 2,
+        "doodads": 106,
+        "fizzes": 106,
+        "gizmos": 126,
+        "widgets": 16
+      }
+    },
+    "id": 48
+  },
+  {
+    "name": "Wisconsin",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 4,
+        "doodads": 100,
+        "fizzes": 146,
+        "gizmos": 50,
+        "widgets": 21
+      },
+      "2014-01-02": {
+        "buzzes": 4,
+        "doodads": 329,
+        "fizzes": 150,
+        "gizmos": 195,
+        "widgets": 19
+      },
+      "2014-01-03": {
+        "buzzes": 6,
+        "doodads": 409,
+        "fizzes": 94,
+        "gizmos": 179,
+        "widgets": 4
+      },
+      "2014-01-04": {
+        "buzzes": 5,
+        "doodads": 18,
+        "fizzes": 63,
+        "gizmos": 135,
+        "widgets": 9
+      },
+      "2014-01-05": {
+        "buzzes": 1,
+        "doodads": 325,
+        "fizzes": 53,
+        "gizmos": 78,
+        "widgets": 5
+      },
+      "2014-01-06": {
+        "buzzes": 6,
+        "doodads": 482,
+        "fizzes": 86,
+        "gizmos": 99,
+        "widgets": 12
+      },
+      "2014-01-07": {
+        "buzzes": 10,
+        "doodads": 121,
+        "fizzes": 49,
+        "gizmos": 45,
+        "widgets": 8
+      },
+      "2014-01-08": {
+        "buzzes": 3,
+        "doodads": 75,
+        "fizzes": 122,
+        "gizmos": 242,
+        "widgets": 4
+      },
+      "2014-01-09": {
+        "buzzes": 10,
+        "doodads": 483,
+        "fizzes": 65,
+        "gizmos": 119,
+        "widgets": 2
+      },
+      "2014-01-10": {
+        "buzzes": 3,
+        "doodads": 156,
+        "fizzes": 136,
+        "gizmos": 139,
+        "widgets": 24
+      },
+      "2014-01-11": {
+        "buzzes": 7,
+        "doodads": 390,
+        "fizzes": 128,
+        "gizmos": 1,
+        "widgets": 7
+      }
+    },
+    "id": 49
+  },
+  {
+    "name": "Wyoming",
+    "dates": {
+      "2014-01-01": {
+        "buzzes": 2,
+        "doodads": 166,
+        "fizzes": 12,
+        "gizmos": 208,
+        "widgets": 25
+      },
+      "2014-01-04": {
+        "buzzes": 2,
+        "doodads": 174,
+        "fizzes": 44,
+        "gizmos": 95,
+        "widgets": 17
+      },
+      "2014-01-09": {
+        "buzzes": 3,
+        "doodads": 424,
+        "fizzes": 11,
+        "gizmos": 139,
+        "widgets": 1
+      },
+      "2014-01-02": {
+        "buzzes": 3,
+        "doodads": 16,
+        "fizzes": 133,
+        "gizmos": 111,
+        "widgets": 22
+      },
+      "2014-01-03": {
+        "buzzes": 2,
+        "doodads": 32,
+        "fizzes": 140,
+        "gizmos": 64,
+        "widgets": 23
+      },
+      "2014-01-05": {
+        "buzzes": 3,
+        "doodads": 239,
+        "fizzes": 8,
+        "gizmos": 115,
+        "widgets": 5
+      },
+      "2014-01-06": {
+        "buzzes": 8,
+        "doodads": 219,
+        "fizzes": 144,
+        "gizmos": 205,
+        "widgets": 14
+      },
+      "2014-01-07": {
+        "buzzes": 6,
+        "doodads": 338,
+        "fizzes": 113,
+        "gizmos": 241,
+        "widgets": 13
+      },
+      "2014-01-08": {
+        "buzzes": 9,
+        "doodads": 460,
+        "fizzes": 134,
+        "gizmos": 116,
+        "widgets": 19
+      },
+      "2014-01-10": {
+        "buzzes": 0,
+        "doodads": 455,
+        "fizzes": 146,
+        "gizmos": 195,
+        "widgets": 23
+      },
+      "2014-01-11": {
+        "buzzes": 0,
+        "doodads": 289,
+        "fizzes": 105,
+        "gizmos": 123,
+        "widgets": 17
+      }
+    },
+    "id": 50
+  }
+]
