@@ -1,6 +1,6 @@
 # D3 TopoJSON Template
 
-An opinionated project template that uses [D3](http://d3js.org) and [TopoJSON](https://github.com/mbostock/topojson) to generate a [choropleth map](http://en.wikipedia.org/wiki/Choropleth_map) of the USA. The [template](http://jonchretien.github.io/d3-template-topojson/) also has top level filters, tooltips for each state, and a slider to navigate the date range.
+An opinionated project template that uses [D3](http://d3js.org) and [TopoJSON](https://github.com/mbostock/topojson) to generate a [choropleth map](http://en.wikipedia.org/wiki/Choropleth_map) of the USA. The [template](http://jonchretien.github.io/d3-topojson-template/) also has top level filters, tooltips for each state, and a slider to navigate the date range.
 
 ## Notes
 
