@@ -1,0 +1,29 @@
+//
+// Map
+// --------------------------------------------------
+
+.background {
+  pointer-events: all;
+}
+
+.states {
+  fill: $grayLighter;
+}
+
+.state-borders {
+  pointer-events: none;
+  stroke: $white;
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.background,
+.state-borders {
+  fill: none;
+}
+
+.map {
+  position: relative;
+  @include size(960px, 500px);
+}

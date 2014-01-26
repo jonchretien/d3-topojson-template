@@ -1,0 +1,32 @@
+//
+// Variables
+// --------------------------------------------------
+
+// Grays
+// -------------------------
+$black:                 #000;
+$grayDarker:            #0a0a0a;
+$grayDark:              #3a3a3a;
+$gray:                  #666;
+$grayLight:             #999;
+$grayLighter:           #e2e2e2;
+$white:                 #fff;
+
+
+// Scaffolding
+// -------------------------
+$bodyBackground:        $white;
+$textColor:             $grayDarker;
+
+
+// Links
+// -------------------------
+$linkColor:             $white;
+$linkColorHover:        $gray;
+
+
+// Typography
+// -------------------------
+$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$baseFontSize:          16;
+$baseFontFamily:        $sansFontFamily;

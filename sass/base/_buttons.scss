@@ -1,0 +1,32 @@
+//
+// Buttons
+// --------------------------------------------------
+
+.btn {
+  background-color: $white;
+  background-image: none;
+  border: 1px solid $grayLighter;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: convertPxToEms(14);
+  line-height: 1.428571429;
+  margin: 0 3px;
+  padding: 6px 12px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-transform: capitalize;
+  @include transition(background-color .2s ease);
+
+  &.active, &:hover {
+    background-color: $grayLighter;
+    border-color: lighten($grayLight, 15%);
+    color: $grayDark;
+  }
+
+  &.active {
+    font-weight: bold;
+  }
+}

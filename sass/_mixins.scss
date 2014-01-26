@@ -1,0 +1,58 @@
+//
+// Mixins
+// --------------------------------------------------
+
+// UTILITY MIXINS
+// --------------------------------------------------
+
+// Font smoothing - http://maxvoltar.com/archive/-webkit-font-smoothing
+// ------------------
+
+@mixin font-smoothing() {
+  -webkit-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+}
+
+// Sizing shortcuts
+// -------------------------
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+// CSS3 PROPERTIES
+// --------------------------------------------------
+
+// Transitions
+@mixin transition($value) {
+  -webkit-transition: $value;
+     -moz-transition: $value;
+      -ms-transition: $value;
+       -o-transition: $value;
+          transition: $value;
+}
+
+// Box shadows
+@mixin box-shadow($value) {
+  -webkit-box-shadow: $value;
+     -moz-box-shadow: $value;
+          box-shadow: $value;
+}
+
+// Box sizing
+@mixin box-sizing($boxmodel) {
+  -webkit-box-sizing: $boxmodel;
+     -moz-box-sizing: $boxmodel;
+          box-sizing: $boxmodel;
+}
+
+//
+// Functions
+// --------------------------------------------------
+
+// Conversions
+// ---------------------------
+
+@function convertPxToEms($target) {
+  @return $target / $baseFontSize + em;
+}

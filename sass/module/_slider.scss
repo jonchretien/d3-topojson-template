@@ -1,0 +1,8 @@
+//
+// Slider
+// --------------------------------------------------
+
+input[type="range"] {
+  margin: 0 0 percentage(10px / 960px) 0;
+  width: percentage(600px / 960px);
+}

@@ -1,0 +1,23 @@
+{
+  "name": "d3-topojson-template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "d3": "~3.3.9",
+    "requirejs": "~2.1.9",
+    "queue-async": "~1.0.4",
+    "topojson": "~1.4.4",
+    "normalize-css": "~2.1.3",
+    "microtemplates": "git://github.com/paulmillr/microtemplates.git#~0.1.0"
+  },
+  "resolutions": {
+    "d3": "~3.4.1"
+  }
+}

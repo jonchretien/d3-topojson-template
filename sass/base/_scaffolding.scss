@@ -1,0 +1,38 @@
+//
+// Scaffolding
+// --------------------------------------------------
+
+// Box Sizing
+// -------------------------
+
+* {
+  @include box-sizing(border-box);
+}
+
+// Font Smoothing
+// -------------------------
+
+html {
+  @include font-smoothing();
+  -webkit-text-size-adjust: 100%;
+}
+
+// Body reset
+// -------------------------
+
+body {
+  color: $grayDarker;
+  font-family: $sansFontFamily;
+  font-size: 100%;
+  line-height: 1;
+  padding: percentage(25px / 960px) 0;
+  text-align: center;
+}
+
+// Shell
+// -------------------------
+
+.shell {
+  margin: 0 auto;
+  max-width: convertPxToEms(960);
+}
