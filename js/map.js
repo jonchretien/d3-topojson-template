@@ -69,10 +69,9 @@ define([
    * Builds map filters.
    */
   Map.prototype.buildFilters = function() {
-    var fragment = document.createDocumentFragment(),
-        len = this.labels.length;
+    var fragment = document.createDocumentFragment();
 
-    for (var i = 0; i < len; i++) {
+    for (var i = 0, len = this.labels.length; i < len; i++) {
       var el = document.createElement('button');
       el.textContent = Utils.createLabelText(this.labels[i]);
       el.dataset.id = [i];
