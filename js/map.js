@@ -114,7 +114,7 @@ define([
   Map.prototype.buildMap = function() {
     var width = 960,
         height = 500,
-        self = this;
+        _this = this;
 
     // apply the Albers USA projection
     var projection = d3.geo.albersUsa()
@@ -142,14 +142,14 @@ define([
       .enter().append('path')
         .attr('d', path)
         .attr('d', path).attr('data-name', function(d, i) {
-          return self.data[i].name;
+          return _this.data[i].name;
         })
         .attr('d', path).attr('data-id', function(d, i) {
-          return self.data[i].id;
+          return _this.data[i].id;
         })
         .data(this.data)
         .attr('fill', function(d) {
-          return 'hsl(216, 86%, ' + (self.COLOR_OFFSET - self.getColorRange(d.dates['' + self.firstDate + ''][self.labels[self.currentLabel]])) + '%)';
+          return 'hsl(216, 86%, ' + (_this.COLOR_OFFSET - _this.getColorRange(d.dates['' + _this.firstDate + ''][_this.labels[_this.currentLabel]])) + '%)';
         });
 
     g.append('path')
@@ -177,11 +177,11 @@ define([
    * @returns {Number}
    */
   Map.prototype.getMinOfArray = function() {
-    var self = this,
+    var _this = this,
         minValue;
 
     minValue = Math.min.apply(Math, this.data.map(function(filteredData) {
-      return filteredData.dates[self.firstDate][self.labels[self.currentLabel]];
+      return filteredData.dates[_this.firstDate][_this.labels[_this.currentLabel]];
     }));
 
     return minValue;
@@ -192,11 +192,11 @@ define([
    * @returns {Number}
    */
   Map.prototype.getMaxOfArray = function() {
-    var self = this,
+    var _this = this,
         maxValue;
 
     maxValue = Math.max.apply(Math, this.data.map(function(filteredData) {
-      return filteredData.dates[self.firstDate][self.labels[self.currentLabel]];
+      return filteredData.dates[_this.firstDate][_this.labels[_this.currentLabel]];
     }));
 
     return maxValue;
@@ -206,28 +206,28 @@ define([
    * Attaches event handlers.
    */
   Map.prototype.attachEventHandlers = function() {
-    var self = this;
+    var _this = this;
 
     // states
     [].forEach.call(document.querySelectorAll('[data-name]'), function(el) {
       el.addEventListener('mouseover', function(event) {
-        self.tooltip.show({
-          data: self.data[event.currentTarget.getAttribute('data-id')].dates['' + self.dates[parseInt(self.slider.value, 10)] + ''][self.labels[self.currentLabel]],
-          label: Utils.createLabelText(self.labels[self.currentLabel]),
+        _this.tooltip.show({
+          data: _this.data[event.currentTarget.getAttribute('data-id')].dates['' + _this.dates[parseInt(_this.slider.value, 10)] + ''][_this.labels[_this.currentLabel]],
+          label: Utils.createLabelText(_this.labels[_this.currentLabel]),
           state: event.currentTarget.getAttribute('data-name')
         });
       }, false);
       el.addEventListener('mousemove', function(event) {
-        self.tooltip.move(event);
+        _this.tooltip.move(event);
       }, false);
       el.addEventListener('mouseout', function() {
-        self.tooltip.hide();
+        _this.tooltip.hide();
       }, false);
     });
 
     // filters
     [].forEach.call(this.filters, function(el) {
-      el.addEventListener('click', self.refresh.bind(self), false);
+      el.addEventListener('click', _this.refresh.bind(_this), false);
     });
 
     // slider
@@ -254,7 +254,7 @@ define([
    */
   Map.prototype.updateMapValues = function() {
     var index = parseInt(this.slider.value, 10),
-        self = this;
+        _this = this;
 
     // update date
     this.currentDate.textContent = this.dates[index];
@@ -263,7 +263,7 @@ define([
       .data(this.data)
       .transition()
       .attr('fill', function(d) {
-        return 'hsl(216, 86%, ' + (self.COLOR_OFFSET - self.getColorRange(d.dates['' + self.dates[index] + ''][self.labels[self.currentLabel]])) + '%)';
+        return 'hsl(216, 86%, ' + (_this.COLOR_OFFSET - _this.getColorRange(d.dates['' + _this.dates[index] + ''][_this.labels[_this.currentLabel]])) + '%)';
     });
   };
 
