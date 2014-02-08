@@ -1,9 +1,9 @@
 define([
   'd3',
-  'template',
   'topojson',
+  'tooltip',
   'utils',
-], function(d3, tmpl, topojson, Utils) {
+], function(d3, topojson, Tooltip, Utils) {
 
   /*!
    * D3 TopoJSON Template
@@ -45,13 +45,12 @@ define([
     this.filterContainer = document.querySelector('#js-filter-container');
     this.map = document.querySelector('#js-map');
     this.shell = document.querySelector('#js-shell');
-    this.tooltip = document.querySelector('#js-tooltip');
 
     // display earliest date date
     this.currentDate.textContent = this.firstDate;
 
-    // cache templates
-    this.toolTipTemplate = tmpl(document.querySelector('#tooltip-template').innerHTML);
+    // create instance of tooltip
+    this.tooltip = new Tooltip('#js-tooltip', '#tooltip-template');
 
     this.init();
   }
@@ -212,9 +211,19 @@ define([
 
     // states
     [].forEach.call(document.querySelectorAll('[data-name]'), function(el) {
-      el.addEventListener('mouseover', self.showTooltip.bind(self), false);
-      el.addEventListener('mousemove', self.moveTooltip.bind(self), false);
-      el.addEventListener('mouseout', self.hideTooltip.bind(self), false);
+      el.addEventListener('mouseover', function(event) {
+        self.tooltip.show({
+          data: self.data[event.currentTarget.getAttribute('data-id')].dates['' + self.dates[parseInt(self.slider.value, 10)] + ''][self.labels[self.currentLabel]],
+          label: Utils.createLabelText(self.labels[self.currentLabel]),
+          state: event.currentTarget.getAttribute('data-name')
+        });
+      }, false);
+      el.addEventListener('mousemove', function(event) {
+        self.tooltip.move(event);
+      }, false);
+      el.addEventListener('mouseout', function() {
+        self.tooltip.hide();
+      }, false);
     });
 
     // filters
@@ -276,37 +285,6 @@ define([
 
     // update current label id
     this.currentLabel = event.currentTarget.getAttribute('data-id');
-  };
-
-  /**
-   * Shows tooltip when user hovers over region.
-   * @param {Object} event - The event triggered.
-   */
-  Map.prototype.showTooltip = function(event) {
-    this.tooltip.innerHTML = this.toolTipTemplate({
-      data: this.data[event.currentTarget.getAttribute('data-id')].dates['' + this.dates[parseInt(this.slider.value, 10)] + ''][this.labels[this.currentLabel]],
-      label: Utils.createLabelText(this.labels[this.currentLabel]),
-      state: event.currentTarget.getAttribute('data-name')
-    });
-
-    // toggle visibility
-    this.tooltip.classList.remove('hide');
-  };
-
-  /**
-   * Hides tooltip when user moves mouse off of region area.
-   */
-  Map.prototype.hideTooltip = function() {
-    this.tooltip.classList.add('hide');
-  };
-
-  /**
-   * Moves tooltip box when user moves mouse.
-   * @param {Object} event - The event triggered.
-   */
-  Map.prototype.moveTooltip = function(event) {
-    this.tooltip.style.left = event.pageX + 5 + 'px';
-    this.tooltip.style.top = event.pageY - (parseInt(this.tooltip.clientHeight, 10) - 60) + 'px';
   };
 
   /**

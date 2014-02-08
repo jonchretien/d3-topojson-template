@@ -9,6 +9,9 @@ requirejs.config({
     // appplication
     'map':             '../js/map',
 
+    // tooltip
+    'tooltip':             '../js/tooltip',
+
     // utilities
     'utils':           '../js/utils',
 
