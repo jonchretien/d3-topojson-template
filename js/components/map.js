@@ -5,10 +5,10 @@
   /**
    * Module dependencies.
    */
-  var d3 = require('../node_modules/d3/d3');
-  var topojson = require('../node_modules/topojson/topojson');
+  var d3 = require('../../node_modules/d3/d3');
+  var topojson = require('../../node_modules/topojson/topojson');
   var Tooltip = require('./tooltip');
-  var Utils = require('./utils');
+  var Utils = require('../helpers/utils');
 
   /*!
    * D3 TopoJSON Template

@@ -10,7 +10,7 @@
    * Module dependencies.
    */
   var d3 = require('../node_modules/d3/d3');
-  var Map = require('./map.js');
+  var Map = require('./components/map');
   var queue = require('../node_modules/queue-async/queue');
 
   // fetch data

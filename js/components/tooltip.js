@@ -5,7 +5,7 @@
   /**
    * Module dependencies.
    */
-  var tmpl = require('../node_modules/microtemplates/index.js');
+  var tmpl = require('../../node_modules/microtemplates/index');
 
   /**
    * @constructor
