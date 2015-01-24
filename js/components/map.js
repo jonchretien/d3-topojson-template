@@ -41,9 +41,6 @@ function Map(us, data) {
   // display earliest date date
   this.currentDate.textContent = this.firstDate;
 
-  // create instance of tooltip
-  this.tooltip = new Tooltip('#js-tooltip', '#tooltip-template');
-
   this.init();
 }
 
@@ -53,6 +50,7 @@ function Map(us, data) {
 Map.prototype.init = function() {
   this.buildFilters();
   this.buildSlider();
+  this.buildTooltip();
   this.buildMap();
   this.attachEventHandlers();
 };
@@ -71,6 +69,13 @@ Map.prototype.buildFilters = function() {
 Map.prototype.buildSlider = function() {
   Slider.build(this.dates, this.map, this.shell);
   this.slider = document.querySelector('#js-slider');
+};
+
+/**
+ * Builds tooltip.
+ */
+Map.prototype.buildTooltip = function() {
+  this.tooltip = new Tooltip('#js-tooltip', '#tooltip-template');
 };
 
 /**
