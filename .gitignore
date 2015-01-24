@@ -4,8 +4,8 @@ sass/vendor/
 
 # build files
 _build/
-/public/css/
-/public/js/bundle.js
+css/
+js/bundle.js
 
 # misc.
 .DS_Store
