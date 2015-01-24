@@ -15,6 +15,7 @@
 var d3 = require('../../node_modules/d3/d3');
 var topojson = require('../../node_modules/topojson/topojson');
 var Tooltip = require('./tooltip');
+var Keyboard = require('../helpers/keyboard');
 var Utils = require('../helpers/utils');
 
 /**
@@ -36,10 +37,11 @@ function Map(us, data) {
   this.filters = null;
   this.slider = null;
 
+  console.log(Keyboard.KEYS.ARROW_LEFT)
+  console.log(Keyboard.KEYS.ARROW_RIGHT)
+
   // constants
   this.COLOR_OFFSET = 90;
-  this.LEFT_ARROW = 37;
-  this.RIGHT_ARROW = 39;
 
   // cache DOM elements
   this.currentDate = document.querySelector('#js-current-date');
@@ -292,7 +294,7 @@ Map.prototype.updateButtonState = function(event) {
  * @param {Object} event - The event triggered.
  */
 Map.prototype.keyboardNavigation = function(event) {
-  if (event.keyCode === this.RIGHT_ARROW) {
+  if (event.keyCode === Keyboard.KEYS.ARROW_RIGHT) {
     event.preventDefault();
 
     // increase slider value by 1 if we're not at the end
@@ -300,7 +302,7 @@ Map.prototype.keyboardNavigation = function(event) {
       this.slider.value++;
       this.updateMapValues();
     }
-  } else if (event.keyCode === this.LEFT_ARROW) {
+  } else if (event.keyCode === Keyboard.KEYS.ARROW_LEFT) {
     event.preventDefault();
 
     // decrease slider value by 1 if we're not at the beginning
