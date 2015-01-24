@@ -4,6 +4,7 @@
  * Module dependencies.
  */
 var d3 = require('d3/d3');
+var Filters = require('./filters');
 var Keyboard = require('../helpers/keyboard');
 var Slider = require('./slider');
 var Tooltip = require('./tooltip');
@@ -34,7 +35,6 @@ function Map(us, data) {
 
   // cache DOM elements
   this.currentDate = document.querySelector('#js-current-date');
-  this.filterContainer = document.querySelector('#js-filter-container');
   this.map = document.querySelector('#js-map');
   this.shell = document.querySelector('#js-shell');
 
@@ -61,25 +61,7 @@ Map.prototype.init = function() {
  * Builds map filters.
  */
 Map.prototype.buildFilters = function() {
-  var fragment = document.createDocumentFragment();
-
-  for (var i = 0, len = this.labels.length; i < len; i++) {
-    var el = document.createElement('button');
-    el.textContent = Utils.createLabelText(this.labels[i]);
-    el.dataset.id = [i];
-    el.dataset.label = this.labels[i];
-    el.classList.add('btn');
-    el.classList.add('btn-filter');
-    fragment.appendChild(el);
-  }
-
-  // add to DOM
-  this.filterContainer.appendChild(fragment);
-
-  // add active class to current label
-  this.filterContainer.querySelector('[data-label=' + this.labels[this.currentLabel] + ']').classList.add('active');
-
-  // cache DOM elements
+  Filters.build(this.labels);
   this.filters = document.querySelectorAll('.btn-filter');
 };
 
