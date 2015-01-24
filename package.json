@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "watch-js": "watchify js/main.js -o js/bundle.js -dv",
-    "watch": "npm run watch-js",
+    "watch-sass": "node-sass -o css sass/main.scss bundle.css",
+    "watch": "npm run watch-js & npm run watch-sass",
     "start": "node server.js",
     "dev": "npm run watch & npm start"
   },
@@ -23,6 +24,7 @@
     "queue-async": "~1.0.7",
     "d3": "~3.5.3",
     "topojson": "~1.6.18",
-    "microtemplates": "~0.1.0"
+    "microtemplates": "~0.1.0",
+    "node-sass": "~2.0.0-beta"
   }
 }
