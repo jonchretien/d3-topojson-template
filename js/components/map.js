@@ -12,8 +12,8 @@
 /**
  * Module dependencies.
  */
-var d3 = require('../../node_modules/d3/d3');
-var topojson = require('../../node_modules/topojson/topojson');
+var d3 = require('d3/d3');
+var topojson = require('topojson/topojson');
 var Tooltip = require('./tooltip');
 var Keyboard = require('../helpers/keyboard');
 var Utils = require('../helpers/utils');

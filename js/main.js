@@ -7,9 +7,9 @@
 /**
  * Module dependencies.
  */
-var d3 = require('../node_modules/d3/d3');
+var d3 = require('d3/d3');
 var Map = require('./components/map');
-var queue = require('../node_modules/queue-async/queue');
+var queue = require('queue-async/queue');
 
 // fetch data
 queue()
