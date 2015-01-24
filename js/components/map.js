@@ -4,9 +4,10 @@
  * Module dependencies.
  */
 var d3 = require('d3/d3');
-var topojson = require('topojson/topojson');
-var Tooltip = require('./tooltip');
 var Keyboard = require('../helpers/keyboard');
+var Slider = require('./slider');
+var Tooltip = require('./tooltip');
+var topojson = require('topojson/topojson');
 var Utils = require('../helpers/utils');
 
 /**
@@ -86,16 +87,7 @@ Map.prototype.buildFilters = function() {
  * Builds slider control.
  */
 Map.prototype.buildSlider = function() {
-  var range = document.createElement('input');
-  range.setAttribute('id', 'js-slider');
-  range.setAttribute('type', 'range');
-  range.setAttribute('min', 0);
-  range.setAttribute('max', this.dates.length - 1);
-  range.setAttribute('step', 1);
-  range.setAttribute('value', 0);
-  this.shell.insertBefore(range, this.map);
-
-  // cache DOM element
+  Slider.build(this.dates, this.map, this.shell);
   this.slider = document.querySelector('#js-slider');
 };
 
