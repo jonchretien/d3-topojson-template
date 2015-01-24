@@ -6,6 +6,7 @@
 var tmpl = require('microtemplates/index');
 
 /**
+ * Tooltip component.
  * @constructor
  *
  * @param {String} tooltip - Container for tooltip.

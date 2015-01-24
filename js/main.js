@@ -1,7 +1,12 @@
-/**
- * @author Jon Chretien
- * @overview A geo data viz that shows different listening stats for one playlist over a 11 day period.
+/*!
+ * D3 TopoJSON Template
+ * Template that maps a data set to a SVG rendered map of the US.
+ * Also has top level filters, tooltips per state, and a slider to navigate the date range.
+ *
+ * @license Released under the MIT license.
+ * @copyright 2015 Jon Chretien
  */
+
 'use strict';
 
 /**

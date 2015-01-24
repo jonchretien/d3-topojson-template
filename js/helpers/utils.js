@@ -1,5 +1,8 @@
 'use strict';
 
+/**
+ * Utility methods.
+ */
 var Utils = {
 
   /**

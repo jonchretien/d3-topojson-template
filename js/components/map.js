@@ -1,12 +1,3 @@
-/*!
- * D3 TopoJSON Template
- * Template that maps a data set to a SVG rendered map of the US.
- * Also has top level filters, tooltips per state, and a slider to navigate the date range.
- *
- * @license Released under the MIT license.
- * @copyright 2015 Jon Chretien
- */
-
 'use strict';
 
 /**
