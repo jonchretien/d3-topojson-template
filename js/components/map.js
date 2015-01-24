@@ -37,9 +37,6 @@ function Map(us, data) {
   this.filters = null;
   this.slider = null;
 
-  console.log(Keyboard.KEYS.ARROW_LEFT)
-  console.log(Keyboard.KEYS.ARROW_RIGHT)
-
   // constants
   this.COLOR_OFFSET = 90;
 
