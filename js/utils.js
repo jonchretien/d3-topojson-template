@@ -1,4 +1,4 @@
-define(function() {
+(function() {
 
   'use strict';
 
@@ -29,6 +29,9 @@ define(function() {
 
   };
 
-  return Utils;
+  /**
+   * Expose `Utils`.
+   */
+  module.exports = Utils;
 
-});
+})();

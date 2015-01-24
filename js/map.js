@@ -1,9 +1,14 @@
-define([
-  'd3',
-  'topojson',
-  'tooltip',
-  'utils',
-], function(d3, topojson, Tooltip, Utils) {
+(function() {
+
+  'use strict';
+
+  /**
+   * Module dependencies.
+   */
+  var d3 = require('../node_modules/d3/d3');
+  var topojson = require('../node_modules/topojson/topojson');
+  var Tooltip = require('./tooltip');
+  var Utils = require('./utils');
 
   /*!
    * D3 TopoJSON Template
@@ -310,6 +315,9 @@ define([
     }
   };
 
-  return Map;
+  /**
+   * Expose `Map`.
+   */
+  module.exports = Map;
 
-});
+})();

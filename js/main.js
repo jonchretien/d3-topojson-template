@@ -2,36 +2,16 @@
  * @author Jon Chretien
  * @overview A geo data viz that shows different listening stats for one playlist over a 11 day period.
  */
+(function() {
 
-requirejs.config({
-
-  paths: {
-    // appplication
-    'map':             '../js/map',
-
-    // tooltip
-    'tooltip':             '../js/tooltip',
-
-    // utilities
-    'utils':           '../js/utils',
-
-    // vendor
-    'd3':              '../bower_components/d3/d3',
-    'queue':           '../bower_components/queue-async/queue',
-    'requirejs':       '../bower_components/requirejs/require',
-    'template':        '../bower_components/microtemplates/index',
-    'topojson':        '../bower_components/topojson/topojson'
-  }
-});
-
-// handle async requests and map creation
-require([
-  'requirejs',
-  'queue',
-  'd3',
-  'map'
-], function(requirejs, queue, d3, Map) {
   'use strict';
+
+  /**
+   * Module dependencies.
+   */
+  var d3 = require('../node_modules/d3/d3');
+  var Map = require('./map.js');
+  var queue = require('../node_modules/queue-async/queue');
 
   // fetch data
   queue()
@@ -47,4 +27,4 @@ require([
     }
   }
 
-});
+})();
