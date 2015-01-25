@@ -16,8 +16,11 @@ echo "Created new directories."
 
 # copy files
 cp index.html $BUILD_DIR/index.html
-cp css/bundle.css $BUILD_DIR/css/bundle.css
 cp data/us-states-output.json $BUILD_DIR/data/us-states-output.json
 cp data/data.json $BUILD_DIR/data/data.json
-cp js/bundle.js $BUILD_DIR/js/bundle.js
 echo "Copied files."
+
+# minify files
+node-sass --output-style compressed -o $BUILD_DIR/css/ sass/main.scss bundle.css
+uglifyjs js/bundle.js -o $BUILD_DIR/js/bundle.js
+echo "Minified files."

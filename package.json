@@ -26,6 +26,7 @@
     "d3": "~3.5.3",
     "topojson": "~1.6.18",
     "microtemplates": "~0.1.0",
-    "node-sass": "~2.0.0-beta"
+    "node-sass": "~2.0.0-beta",
+    "uglifyjs": "~2.3.6"
   }
 }
