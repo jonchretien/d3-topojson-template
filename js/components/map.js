@@ -147,12 +147,9 @@ Map.prototype.getColorRange = function(data) {
  * @returns {Number}
  */
 Map.prototype.getMinOfArray = function() {
-  var _this = this,
-      minValue;
-
-  minValue = Math.min.apply(Math, this.data.map(function(filteredData) {
-    return filteredData.dates[_this.firstDate][_this.labels[_this.currentLabel]];
-  }));
+  var minValue = Math.min.apply(Math, this.data.map(function(filteredData) {
+    return filteredData.dates[this.firstDate][this.labels[this.currentLabel]];
+  }.bind(this)));
 
   return minValue;
 };
@@ -162,12 +159,9 @@ Map.prototype.getMinOfArray = function() {
  * @returns {Number}
  */
 Map.prototype.getMaxOfArray = function() {
-  var _this = this,
-      maxValue;
-
-  maxValue = Math.max.apply(Math, this.data.map(function(filteredData) {
-    return filteredData.dates[_this.firstDate][_this.labels[_this.currentLabel]];
-  }));
+  var maxValue = Math.max.apply(Math, this.data.map(function(filteredData) {
+    return filteredData.dates[this.firstDate][this.labels[this.currentLabel]];
+  }.bind(this)));
 
   return maxValue;
 };
