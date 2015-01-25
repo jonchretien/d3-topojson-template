@@ -1,11 +1,16 @@
 {
   "name": "d3-topojson-template",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Boilerplate that maps a data set to a D3 map of the US.",
-  "main": "Gruntfile.js",
+  "main": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npm run watch & npm start",
+    "build": "bash bin/build.sh",
+    "start": "node server.js",
+    "watch-js": "watchify js/main.js -o js/bundle.js -dv",
+    "watch-sass": "node-sass -o css sass/main.scss bundle.css",
+    "watch": "npm run watch-js & npm run watch-sass"
   },
   "repository": "https://github.com/jonchretien/d3-template-topojson/",
   "author": {
@@ -14,15 +19,14 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.7.2",
-    "grunt-contrib-requirejs": "~0.4.1",
-    "grunt": "~0.4.2",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-sass": "~0.6.0",
-    "load-grunt-tasks": "~0.2.1",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-htmlmin": "~0.1.3",
-    "grunt-contrib-concat": "~0.3.0"
+    "express": "~4.11.1",
+    "browserify": "~8.1.1",
+    "watchify": "~2.2.1",
+    "queue-async": "~1.0.7",
+    "d3": "~3.5.3",
+    "topojson": "~1.6.18",
+    "microtemplates": "~0.1.0",
+    "node-sass": "~2.0.0-beta",
+    "uglifyjs": "~2.3.6"
   }
 }

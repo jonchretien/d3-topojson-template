@@ -1,6 +1,6 @@
 # D3 TopoJSON Template
 
-An opinionated project template that uses [D3](http://d3js.org) and [TopoJSON](https://github.com/mbostock/topojson) to generate a [choropleth map](http://en.wikipedia.org/wiki/Choropleth_map) of the USA. The [template](http://jonchretien.github.io/d3-topojson-template/) also has top level filters, tooltips for each state, and a slider to navigate the date range.
+A project template that uses [D3](http://d3js.org) and [TopoJSON](https://github.com/mbostock/topojson) to generate a [choropleth map](http://en.wikipedia.org/wiki/Choropleth_map) of the USA. The [template](http://jonchretien.github.io/d3-topojson-template/) also has top level filters, tooltips for each state, and a slider to navigate the date range.
 
 ## Notes
 
@@ -30,38 +30,23 @@ An opinionated project template that uses [D3](http://d3js.org) and [TopoJSON](h
 ]
 ```
 
-## Dev Dependencies
-
-- [bower.json](bower.json).
-- [package.json](package.json).
-
-## Setup
-
-To run the site locally:
+## Run site locally
 
 1.  Clone the repo.
 
-    `git clone https://github.com/jonchretien/d3-topojson-template.git`
+    `git clone https://github.com/jonchretien/d3-topojson-template.git && cd d3-topojson-template`
 
-2.  Navigate to the cloned repo and install the NPM dependencies.
+2.  Install the NPM dependencies.
 
     `npm install`
 
-3.  Install the bower dependencies.
+3. Run watch tasks and start up a HTTP server.
 
-    `bower install`
+    `npm run dev`
 
-4. Start up Python's HTTP server.
+## Build the project.
 
-    `python -m SimpleHTTPServer`
-
-5. Generate the main CSS file and run the watch task.
-
-    `grunt dev`
-
-6. Build the project.
-
-    `grunt build`
+    `npm run build`
 
 ## License
 

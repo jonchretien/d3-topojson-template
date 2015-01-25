@@ -1,11 +1,10 @@
 # dependencies
 node_modules/
-bower_components/
-sass/vendor/
 
 # build files
-_build/
+_dist/
 css/
+js/bundle.js
 
 # misc.
 .DS_Store

@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>d3 topojson template</title>
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="/css/bundle.css">
 </head>
 <body>
 
   <div id="js-shell" class="shell">
     <header class="site-header">
-      <h1 class="project-title">Generic Data Set</h1>
-      <p class="lead">A choropleth map showing a generic data set on <span id="js-current-date"></span>.</p>
+      <h1 class="site-header__title">Generic Data Set</h1>
+      <p class="site-header__lead">A choropleth map showing a generic data set on <span id="js-current-date"></span>.</p>
     </header>
     <div id="js-filter-container" class="filter-container"></div>
     <div id="js-map" class="map"></div>
@@ -18,11 +18,11 @@
 
   <div id="js-tooltip" class="tooltip hide"></div>
 
-  <script data-main="js/config" src="bower_components/requirejs/require.js"></script>
+  <script src="/js/bundle.js"></script>
 
   <script type="text/html" id="tooltip-template">
-    <span class="tooltip-name"><%= state %></span>
-    <span class="tooltip-description"><%= data %> <%= label %></span>
+    <span class="tooltip__name"><%= state %></span>
+    <span class="tooltip__description"><%= data %> <%= label %></span>
   </script>
 
 </body>
