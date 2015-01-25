@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "npm run watch & npm start",
+    "build": "bash bin/build.sh",
     "start": "node server.js",
     "watch-js": "watchify js/main.js -o js/bundle.js -dv",
     "watch-sass": "node-sass -o css sass/main.scss bundle.css",

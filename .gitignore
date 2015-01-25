@@ -3,7 +3,7 @@ node_modules/
 sass/vendor/
 
 # build files
-_build/
+_dist/
 css/
 js/bundle.js
 

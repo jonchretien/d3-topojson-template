@@ -46,7 +46,7 @@ A project template that uses [D3](http://d3js.org) and [TopoJSON](https://github
 
 ## Build the project.
 
-    `grunt build`
+    `npm run build`
 
 ## License
 
