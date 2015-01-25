@@ -1,6 +1,5 @@
 # dependencies
 node_modules/
-sass/vendor/
 
 # build files
 _dist/
