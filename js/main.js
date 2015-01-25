@@ -16,16 +16,25 @@ var d3 = require('d3/d3');
 var Map = require('./components/map');
 var queue = require('queue-async/queue');
 
-// fetch data
-queue()
-  .defer(d3.json, 'data/us-states-output.json') // topojson polygons
-  .defer(d3.json, 'data/data.json') // sample data set
-  .await(ready);
+/**
+ * Fetches topojson polygons and data set.
+ */
+function fetchData() {
+  queue()
+    .defer(d3.json, 'data/us-states-output.json')
+    .defer(d3.json, 'data/data.json')
+    .await(createMap);
+}
 
-function ready(error, states, data) {
+/**
+ * Creates D3 map.
+ */
+function createMap(error, states, data) {
   if (error) {
     return console.warn(error);
-  } else {
-    var map = new Map(states, data);
   }
+
+  var map = new Map(states, data);
 }
+
+fetchData();
