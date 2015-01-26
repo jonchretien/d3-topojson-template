@@ -2,6 +2,7 @@
 
 /**
  * Range input type.
+ *
  * @constructor
  */
 function Slider() {}
@@ -12,6 +13,7 @@ function Slider() {}
  * @param {Array} dates - Date range for data.
  * @param {Object} map - Map element.
  * @param {Object} shell - Shell element.
+ * @api public
  */
 Slider.prototype.build = function(dates, map, shell) {
   var range = document.createElement('input');

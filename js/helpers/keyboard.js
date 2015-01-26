@@ -2,8 +2,8 @@
 
 /**
  * Helper with common keyboard keys.
- * @constructor
  *
+ * @constructor
  */
 function Keyboard() {}
 
