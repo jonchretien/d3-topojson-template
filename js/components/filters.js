@@ -7,12 +7,15 @@ var Utils = require('../helpers/utils');
 
 /**
  * Map filters.
+ *
  * @constructor
  */
 function Filters() {}
 
 /**
  * Builds map filters.
+ *
+ * @api public
  */
 Filters.prototype.build = function(labels) {
   var fragment = document.createDocumentFragment();

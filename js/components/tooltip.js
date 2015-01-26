@@ -7,8 +7,8 @@ var tmpl = require('microtemplates/index');
 
 /**
  * Tooltip component.
- * @constructor
  *
+ * @constructor
  * @param {String} tooltip - Container for tooltip.
  * @param {String} template - JavaScript template.
  */
@@ -21,6 +21,7 @@ function Tooltip(tooltip, template) {
  * Shows tooltip when user hovers over element.
  *
  * @param {Object} data - Data to display in JavaScript template.
+ * @api public
  */
 Tooltip.prototype.show = function(data) {
  this.tooltip.innerHTML = this.toolTipTemplate(data);
@@ -31,6 +32,8 @@ Tooltip.prototype.show = function(data) {
 
 /**
  * Hides tooltip when user moves mouse off of element.
+ *
+ * @api public
  */
 Tooltip.prototype.hide = function() {
  this.tooltip.classList.add('hide');
@@ -40,6 +43,7 @@ Tooltip.prototype.hide = function() {
  * Moves tooltip when user moves mouse.
  *
  * @param {Object} event - The event triggered.
+ * @api public
  */
 Tooltip.prototype.move = function(event) {
  this.tooltip.style.left = event.pageX + 5 + 'px';

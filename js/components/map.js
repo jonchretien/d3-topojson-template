@@ -12,8 +12,9 @@ var topojson = require('topojson/topojson');
 var Utils = require('../helpers/utils');
 
 /**
- * @constructor
+ * Map of the United States.
  *
+ * @constructor
  * @param {Array} states - GeoJSON file of 50 US states and D.C.
  * @param {Array} data - Data set.
  */
@@ -46,6 +47,8 @@ function Map(us, data) {
 
 /**
  * Initializes application.
+ *
+ * @api private
  */
 Map.prototype.init = function() {
   this.buildFilters();
@@ -57,6 +60,8 @@ Map.prototype.init = function() {
 
 /**
  * Builds map filters.
+ *
+ * @api private
  */
 Map.prototype.buildFilters = function() {
   Filters.build(this.labels);
@@ -65,6 +70,8 @@ Map.prototype.buildFilters = function() {
 
 /**
  * Builds slider control.
+ *
+ * @api private
  */
 Map.prototype.buildSlider = function() {
   Slider.build(this.dates, this.map, this.shell);
@@ -73,6 +80,8 @@ Map.prototype.buildSlider = function() {
 
 /**
  * Builds tooltip.
+ *
+ * @api private
  */
 Map.prototype.buildTooltip = function() {
   this.tooltip = new Tooltip('#js-tooltip', '#tooltip-template');
@@ -80,6 +89,8 @@ Map.prototype.buildTooltip = function() {
 
 /**
  * Builds d3 map using topojson layer.
+ *
+ * @api private
  */
 Map.prototype.buildMap = function() {
   var width = 960,
@@ -133,8 +144,10 @@ Map.prototype.buildMap = function() {
  * Calculates the color range for the map using linear scales.
  * The input domain is the date with the least values and the date with the most values.
  * The scale's output range is from 0 to 100.
+ *
  * @param {Number} data - The values for a certain label on a given date. Example: streams_gt_30 for all regions on 1/1/13.
  * @returns {Number}
+ * @api private
  */
 Map.prototype.getColorRange = function(data) {
   var color = d3.scale.linear().domain([this.minValue, this.maxValue]).range([0, 100]);
@@ -144,7 +157,9 @@ Map.prototype.getColorRange = function(data) {
 
 /**
  * Finds the date with the lowest values.
+ *
  * @returns {Number}
+ * @api private
  */
 Map.prototype.getMinOfArray = function() {
   var minValue = Math.min.apply(Math, this.data.map(function(filteredData) {
@@ -156,7 +171,9 @@ Map.prototype.getMinOfArray = function() {
 
 /**
  * Finds the date with the highest values.
+ *
  * @returns {Number}
+ * @api private
  */
 Map.prototype.getMaxOfArray = function() {
   var maxValue = Math.max.apply(Math, this.data.map(function(filteredData) {
@@ -168,6 +185,8 @@ Map.prototype.getMaxOfArray = function() {
 
 /**
  * Attaches event handlers.
+ *
+ * @api private
  */
 Map.prototype.attachEventHandlers = function() {
   var _this = this;
@@ -203,7 +222,9 @@ Map.prototype.attachEventHandlers = function() {
 
 /**
  * Refreshes user interface.
+ *
  * @param {Object} event - The event triggered.
+ * @api private
  */
 Map.prototype.refresh = function(event) {
   this.updateButtonState(event);
@@ -215,6 +236,8 @@ Map.prototype.refresh = function(event) {
 /**
  * Updates map colors by shifting array values based on current slider value.
  * Also updates the current date displayed on the page.
+ *
+ * @api private
  */
 Map.prototype.updateMapValues = function() {
   var index = parseInt(this.slider.value, 10),
@@ -234,7 +257,9 @@ Map.prototype.updateMapValues = function() {
 
 /**
  * Event handler that switches primary label for map and changes button highlight.
+ *
  * @param {Object} event - The event triggered.
+ * @api private
  */
 Map.prototype.updateButtonState = function(event) {
   event.preventDefault();
@@ -252,7 +277,9 @@ Map.prototype.updateButtonState = function(event) {
 
 /**
  * Code logic for right and left arrow keys.
+ *
  * @param {Object} event - The event triggered.
+ * @api private
  */
 Map.prototype.keyboardNavigation = function(event) {
   if (event.keyCode === Keyboard.KEYS.ARROW_RIGHT) {
