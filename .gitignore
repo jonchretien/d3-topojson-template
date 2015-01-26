@@ -13,3 +13,4 @@ Thumbs.db
 *.ico
 .htaccess
 .sass-cache
+npm-debug.log

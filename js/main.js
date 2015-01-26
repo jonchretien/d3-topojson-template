@@ -7,6 +7,8 @@
  * @copyright 2015 Jon Chretien
  */
 
+ /*jshint -W079 */
+
 'use strict';
 
 /**
@@ -35,6 +37,7 @@ function createMap(error, states, data) {
   }
 
   var map = new Map(states, data);
+  map.init();
 }
 
 fetchData();

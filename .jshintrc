@@ -1,0 +1,12 @@
+{
+  "node": true,
+  "browser": true,
+  "undef": true,
+  "unused": true,
+  "strict": true,
+  "globals": {
+    "module": true,
+    "require": true,
+    "console": true
+  }
+}
