@@ -44,9 +44,17 @@ A project template that uses [D3](http://d3js.org) and [TopoJSON](https://github
 
     `npm run dev`
 
+## Lint JavaScript
+
+```bash
+make test
+```
+
 ## Build the project.
 
-    `npm run build`
+```bash
+make build
+```
 
 ## License
 

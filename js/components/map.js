@@ -41,14 +41,12 @@ function Map(us, data) {
 
   // display earliest date date
   this.currentDate.textContent = this.firstDate;
-
-  this.init();
 }
 
 /**
  * Initializes application.
  *
- * @api private
+ * @api public
  */
 Map.prototype.init = function() {
   this.buildFilters();
