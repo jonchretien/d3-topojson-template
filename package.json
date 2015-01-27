@@ -1,6 +1,6 @@
 {
   "name": "d3-topojson-template",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Boilerplate that maps a data set to a D3 map of the US.",
   "main": "",
   "private": true,
