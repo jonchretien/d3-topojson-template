@@ -3,6 +3,10 @@ DIST = _dist
 GREEN = \033[0;32m
 NO_COLOR = \033[0m
 
+# --------------------------
+# Build Tasks
+# --------------------------
+
 build: test clean make_dir copy min_css min_js
 
 clean:
@@ -16,18 +20,20 @@ copy:
 	@echo "${GREEN}Copied files.${NO_COLOR}\n"
 
 make_dir:
-	mkdir $(DIST)
-	mkdir $(DIST)/css
-	mkdir $(DIST)/js
-	mkdir $(DIST)/data
+	mkdir $(DIST) $(DIST)/css $(DIST)/js $(DIST)/data
 	@echo "${GREEN}Created new directories.${NO_COLOR}\n"
 
 min_css:
 	$(BIN)/node-sass --output-style compressed -o $(DIST)/css/ sass/main.scss bundle.css
 
 min_js:
-	uglifyjs js/bundle.js -o $(DIST)/js/bundle.js
+	browserify js/main.js | uglifyjs -o $(DIST)/js/bundle.js
 	@echo "${GREEN}Minified JavaScript.${NO_COLOR}\n"
+
+
+# --------------------------
+# Test
+# --------------------------
 
 test:
 	@jshint --verbose js/** --config .jshintrc
