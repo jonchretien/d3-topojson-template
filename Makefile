@@ -7,7 +7,7 @@ NO_COLOR = \033[0m
 # Build Tasks
 # --------------------------
 
-build: test clean make_dir copy min_css min_js
+build: test clean make_dir copy min_css min_js update_paths
 
 clean:
 	rm -rf $(DIST)/
@@ -24,12 +24,15 @@ make_dir:
 	@echo "${GREEN}Created new directories.${NO_COLOR}\n"
 
 min_css:
-	$(BIN)/node-sass --output-style compressed -o $(DIST)/css/ sass/main.scss bundle.css
+	$(BIN)/node-sass --output-style compressed -o $(DIST)/css/ sass/main.scss bundle.min.css
 
 min_js:
-	browserify js/main.js | uglifyjs -o $(DIST)/js/bundle.js
+	browserify js/main.js | uglifyjs -o $(DIST)/js/bundle.min.js
 	@echo "${GREEN}Minified JavaScript.${NO_COLOR}\n"
 
+update_paths:
+	node bin/update-paths
+	@echo "${GREEN}Updated static paths.${NO_COLOR}\n"
 
 # --------------------------
 # Test
