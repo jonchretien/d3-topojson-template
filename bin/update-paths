@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var fs = require('fs');
+
+// assign variables.
+var DIST_PATH = '_dist';
+var timestamp = Date.now();
+var minCSS = 'bundle.min.' + timestamp + '.css';
+var minJS = 'bundle.min.' + timestamp + '.js';
+var original = DIST_PATH + '/index.html';
+var page, revised;
+
+// rename static files
+fs.renameSync(DIST_PATH + '/css/bundle.min.css', DIST_PATH + '/css/' + minCSS);
+fs.renameSync(DIST_PATH + '/js/bundle.min.js', DIST_PATH + '/js/' + minJS);
+
+// read file contents and update file paths
+page = fs.readFileSync(original, 'utf8');
+revised = page.replace('\/css\/bundle.css', '/css/' + minCSS).replace('\/js\/bundle.js', '/js/' + minJS);
+
+// write new contents to file
+fs.writeFileSync(original, revised);
