@@ -92,8 +92,7 @@ Map.prototype.buildTooltip = function() {
  */
 Map.prototype.buildMap = function() {
   var width = 960,
-      height = 500,
-      _this = this;
+      height = 500;
 
   // apply the Albers USA projection
   var projection = d3.geo.albersUsa()
@@ -121,15 +120,15 @@ Map.prototype.buildMap = function() {
     .enter().append('path')
       .attr('d', path)
       .attr('d', path).attr('data-name', function(d, i) {
-        return _this.data[i].name;
-      })
+        return this.data[i].name;
+      }.bind(this))
       .attr('d', path).attr('data-id', function(d, i) {
-        return _this.data[i].id;
-      })
+        return this.data[i].id;
+      }.bind(this))
       .data(this.data)
       .attr('fill', function(d) {
-        return 'hsl(216, 86%, ' + (_this.COLOR_OFFSET - _this.getColorRange(d.dates['' + _this.firstDate + ''][_this.labels[_this.currentLabel]])) + '%)';
-      });
+        return 'hsl(216, 86%, ' + (this.COLOR_OFFSET - this.getColorRange(d.dates['' + this.firstDate + ''][this.labels[this.currentLabel]])) + '%)';
+      }.bind(this));
 
   g.append('path')
       .datum(topojson.mesh(this.us, this.us.objects['us-states'], function(a, b) { return a !== b; }))
@@ -187,29 +186,27 @@ Map.prototype.getMaxOfArray = function() {
  * @api private
  */
 Map.prototype.attachEventHandlers = function() {
-  var _this = this;
-
   // states
   [].forEach.call(document.querySelectorAll('[data-name]'), function(el) {
     el.addEventListener('mouseover', function(event) {
-      _this.tooltip.show({
-        data: _this.data[event.currentTarget.getAttribute('data-id')].dates['' + _this.dates[parseInt(_this.slider.value, 10)] + ''][_this.labels[_this.currentLabel]],
-        label: Utils.createLabelText(_this.labels[_this.currentLabel]),
+      this.tooltip.show({
+        data: this.data[event.currentTarget.getAttribute('data-id')].dates['' + this.dates[parseInt(this.slider.value, 10)] + ''][this.labels[this.currentLabel]],
+        label: Utils.createLabelText(this.labels[this.currentLabel]),
         state: event.currentTarget.getAttribute('data-name')
       });
-    }, false);
+    }.bind(this), false);
     el.addEventListener('mousemove', function(event) {
-      _this.tooltip.move(event);
-    }, false);
+      this.tooltip.move(event);
+    }.bind(this), false);
     el.addEventListener('mouseout', function() {
-      _this.tooltip.hide();
-    }, false);
-  });
+      this.tooltip.hide();
+    }.bind(this), false);
+  }.bind(this));
 
   // filters
   [].forEach.call(this.filters, function(el) {
-    el.addEventListener('click', _this.refresh.bind(_this), false);
-  });
+    el.addEventListener('click', this.refresh.bind(this), false);
+  }.bind(this));
 
   // slider
   this.slider.addEventListener('change', this.updateMapValues.bind(this), false);
@@ -238,8 +235,7 @@ Map.prototype.refresh = function(event) {
  * @api private
  */
 Map.prototype.updateMapValues = function() {
-  var index = parseInt(this.slider.value, 10),
-      _this = this;
+  var index = parseInt(this.slider.value, 10);
 
   // update date
   this.currentDate.textContent = this.dates[index];
@@ -248,8 +244,8 @@ Map.prototype.updateMapValues = function() {
     .data(this.data)
     .transition()
     .attr('fill', function(d) {
-      return 'hsl(216, 86%, ' + (_this.COLOR_OFFSET - _this.getColorRange(d.dates['' + _this.dates[index] + ''][_this.labels[_this.currentLabel]])) + '%)';
-  });
+      return 'hsl(216, 86%, ' + (this.COLOR_OFFSET - this.getColorRange(d.dates['' + this.dates[index] + ''][this.labels[this.currentLabel]])) + '%)';
+  }.bind(this));
 };
 
 
@@ -281,17 +277,15 @@ Map.prototype.updateButtonState = function(event) {
  */
 Map.prototype.keyboardNavigation = function(event) {
   if (event.keyCode === Keyboard.KEYS.ARROW_RIGHT) {
-    event.preventDefault();
-
-    // increase slider value by 1 if we're not at the end
+    // increment slider value if at the end
     if (this.slider.value < this.dates.length - 1) {
       this.slider.value++;
       this.updateMapValues();
     }
-  } else if (event.keyCode === Keyboard.KEYS.ARROW_LEFT) {
-    event.preventDefault();
+  }
 
-    // decrease slider value by 1 if we're not at the beginning
+  if (event.keyCode === Keyboard.KEYS.ARROW_LEFT) {
+    // decrement slider value if at the beginning
     if (this.slider.value >= 0) {
       this.slider.value--;
       this.updateMapValues();
