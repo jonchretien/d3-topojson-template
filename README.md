@@ -42,7 +42,7 @@ A project template that uses [D3](http://d3js.org) and [TopoJSON](https://github
 
 3. Run watch tasks and start up a HTTP server.
 
-    `npm run dev`
+    `make dev -j`
 
 ## Lint JavaScript
 

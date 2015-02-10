@@ -4,14 +4,6 @@
   "description": "Boilerplate that maps a data set to a D3 map of the US.",
   "main": "",
   "private": true,
-  "scripts": {
-    "dev": "npm run watch & npm start",
-    "watch": "npm run watch-js & npm run watch-sass",
-    "watch-js": "watchify js/main.js -o js/bundle.js -dv",
-    "watch-sass": "nodemon -e scss -x \"npm run compile-sass\"",
-    "compile-sass": "./node_modules/.bin/node-sass -o css sass/main.scss bundle.css",
-    "start": "node server.js"
-  },
   "repository": "https://github.com/jonchretien/d3-template-topojson/",
   "author": {
     "name": "Jon Chretien",
