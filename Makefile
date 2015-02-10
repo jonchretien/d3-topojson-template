@@ -4,6 +4,29 @@ GREEN = \033[0;32m
 NO_COLOR = \033[0m
 
 # --------------------------
+# Dev Tasks
+# --------------------------
+
+dev: watch_js watch_sass serve
+
+watch_js:
+	watchify js/main.js -o js/bundle.js -dv
+	@echo "${GREEN}Watching JS files.${NO_COLOR}\n"
+
+watch_sass:
+	$(BIN)/nodemon -e scss -x "make compile_sass"
+	@echo "${GREEN}Watching SASS files.${NO_COLOR}\n"
+
+compile_sass:
+	$(BIN)/node-sass -o css sass/main.scss bundle.css
+	@echo "${GREEN}Compile SASS files.${NO_COLOR}\n"
+
+serve:
+	node server.js
+	@echo "${GREEN}Start server.${NO_COLOR}\n"
+
+
+# --------------------------
 # Build Tasks
 # --------------------------
 
@@ -33,6 +56,7 @@ min_js:
 update_paths:
 	node bin/update-paths
 	@echo "${GREEN}Updated static paths.${NO_COLOR}\n"
+
 
 # --------------------------
 # Test
