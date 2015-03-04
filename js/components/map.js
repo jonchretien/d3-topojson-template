@@ -275,23 +275,19 @@ Map.prototype.updateButtonState = function(event) {
  * @param {Object} event - The event triggered.
  * @api private
  */
-Map.prototype.keyboardNavigation = function(event) {
-  if (event.keyCode === Keyboard.KEYS.ARROW_RIGHT) {
-    // increment slider value if at the end
-    if (this.slider.value < this.dates.length - 1) {
-      this.slider.value++;
-      this.updateMapValues();
-    }
-  }
+ Map.prototype.keyboardNavigation = function(event) {
+   // increment slider value if at the end
+   if (event.keyCode === Keyboard.KEYS.ARROW_RIGHT && this.slider.value < this.dates.length - 1) {
+     this.slider.value++;
+     this.updateMapValues();
+   }
 
-  if (event.keyCode === Keyboard.KEYS.ARROW_LEFT) {
-    // decrement slider value if at the beginning
-    if (this.slider.value >= 0) {
-      this.slider.value--;
-      this.updateMapValues();
-    }
-  }
-};
+   // decrement slider value if at the beginning
+   if (event.keyCode === Keyboard.KEYS.ARROW_LEFT && this.slider.value >= 0) {
+     this.slider.value--;
+     this.updateMapValues();
+   }
+ };
 
 /**
  * Expose `Map`.
